@@ -24,7 +24,7 @@ const Header = () => {
             />
           </div>
           <div>
-            <span className="text-2xl font-bold text-gray-900 dark:text-gray-100 group-hover:text-primary-500 dark:group-hover:text-primary-400 transition-colors">红鱼's Homepage</span>
+            <span className="text-2xl font-bold text-gray-900 dark:text-gray-100 group-hover:text-primary-500 dark:group-hover:text-primary-400 transition-colors">Redfish's Space | 红鱼的空间</span>
           </div>
         </div>
       </Link>
