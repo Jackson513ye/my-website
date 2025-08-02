@@ -34,4 +34,3 @@ export default function PublicationsPage() {
     </div>
   )
 }
-EOF
