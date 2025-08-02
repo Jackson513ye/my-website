@@ -1,5 +1,4 @@
 import { Metadata } from 'next'
-import { compareDesc, parseISO } from 'date-fns'
 
 export const metadata: Metadata = {
   title: 'Projects',
@@ -61,9 +60,7 @@ export default function ProjectsPage() {
       <div className="container py-12">
         <div className="flex flex-col gap-8">
           {projects.length > 0 ? (
-            projects
-              .sort((a, b) => compareDesc(parseISO(a.date), parseISO(b.date)))
-              .map((project) => <ProjectCard key={project.slug} project={project} />)
+            projects.map((project) => <ProjectCard key={project.slug} project={project} />)
           ) : (
             <div className="py-16 text-center">
               <div className="mx-auto mb-6 h-24 w-24 text-gray-300 dark:text-gray-600">
@@ -71,7 +68,7 @@ export default function ProjectsPage() {
                   <path d="M20,6A2,2 0 0,1 22,8V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4H10L12,6H20Z" />
                 </svg>
               </div>
-              <h3 className="mb-2 text-lg font-medium text-gray-900 dark:text-gray-100">No Projects Yet</h3>
+              <h3 className="mb-2 text-lg font-medium text-gray-900 dark:text-gray-100">No Projects Available</h3>
               <p className="text-gray-500 dark:text-gray-400">Check back soon for my latest research projects and work.</p>
             </div>
           )}
