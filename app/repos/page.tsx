@@ -29,9 +29,9 @@ const repos: RepoDef[] = [
     title: 'MeTreec',
     description:
       'An end-to-end single-tree point cloud pipeline: AdTree-based 3D reconstruction, CGAL hole filling, skeleton/leaf filtering, and automatic metrics (height, DBH, crown radius/depth, volume/area). C++17/CMake with modular components and per-tree JSON plus batch CSV outputs.',
-    href: 'https://github.com/Jackson513ye/MeTreec',
+    href: 'https://github.com/ai4city-hkust/Metreec-v1.0',
     imgSrc: '/images/repos/metreec.svg',
-    fullName: 'Jackson513ye/MeTreec',
+    fullName: 'ai4city-hkust/Metreec-v1.0',
   },
 ]
 
