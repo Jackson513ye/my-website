@@ -1,4 +1,8 @@
 import { Metadata } from 'next'
+import Link from '@/components/Link'
+import Image from '@/components/Image'
+import { allProjects } from 'contentlayer/generated'
+import { format } from 'date-fns'
 
 export const metadata: Metadata = {
   title: 'Projects',
@@ -6,6 +10,8 @@ export const metadata: Metadata = {
 }
 
 export default function ProjectsPage() {
+  const projects = allProjects.slice().sort((a, b) => (a.date > b.date ? -1 : 1))
+
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
@@ -17,19 +23,48 @@ export default function ProjectsPage() {
         </p>
       </div>
       <div className="container py-12">
-        <div className="py-16 text-center">
-          <div className="mx-auto mb-6 h-24 w-24 text-gray-300 dark:text-gray-600">
-            <svg fill="currentColor" viewBox="0 0 24 24" className="h-full w-full">
-              <path d="M20,6A2,2 0 0,1 22,8V18A2,2 0 0,1 20,20H4A2,2 0 0,1 2,18V6A2,2 0 0,1 4,4H10L12,6H20Z" />
-            </svg>
-          </div>
-          <h3 className="mb-2 text-lg font-medium text-gray-900 dark:text-gray-100">
-            No Projects Available
-          </h3>
-          <p className="text-gray-500 dark:text-gray-400">
-            Check back soon for my latest research projects and work.
-          </p>
-        </div>
+        <ul className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+          {projects.map((project) => (
+            <li key={project.slug} className="group rounded-lg border border-gray-200 dark:border-gray-800 overflow-hidden">
+              {project.image ? (
+                <Link href={`/projects/${project.slug}`} aria-label={`Open ${project.title}`}>
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    width={1200}
+                    height={630}
+                    className="h-40 w-full object-cover transition-transform hover:scale-[1.01]"
+                  />
+                </Link>
+              ) : null}
+              <div className="p-5">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
+                  {project.title}
+                </h3>
+                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
+                  {[project.role, project.mentors].filter(Boolean).join(' · ')}
+                </p>
+                <p className="mt-1 text-xs text-gray-400">
+                  {format(new Date(project.date), 'MMM yyyy')}
+                  {project.endDate ? ` – ${format(new Date(project.endDate), 'MMM yyyy')}` : ''}
+                </p>
+                {project.excerpt && (
+                  <p className="mt-3 text-sm text-gray-600 dark:text-gray-300">{project.excerpt}</p>
+                )}
+                <div className="mt-4 flex gap-4">
+                  <Link href={`/projects/${project.slug}`} className="text-primary-500 hover:text-primary-600">
+                    Details →
+                  </Link>
+                  {project.external && (
+                    <Link href={project.external} className="text-gray-500 hover:text-gray-700">
+                      External ↗
+                    </Link>
+                  )}
+                </div>
+              </div>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
   )

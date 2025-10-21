@@ -1,25 +1,44 @@
-import { allEvents } from 'contentlayer/generated'
-import { useMDXComponent } from 'pliny/mdx-components'
+import { allProjects } from 'contentlayer/generated'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
+import { format } from 'date-fns'
+import MDXContentClient from '@/components/MDXContentClient'
+import Link from '@/components/Link'
 
-export default function EventPage({ params }) {
-  const event = allEvents.find((e) => e.slug === params.slug)
+export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params
+  const project = allProjects.find((d) => d.slug === slug)
 
-  // ❌ Can't return early with hooks below, so use flag instead
-  const isNotFound = !event
-  const MDXContent = useMDXComponent(event?.body.code || '')
-
-  if (isNotFound) return notFound()
+  if (!project) return notFound()
 
   return (
     <article className="prose dark:prose-invert mx-auto max-w-3xl py-12">
-      <h1>{event.title}</h1>
-      {event.image && <Image src={event.image} alt={event.title} width={800} height={400} className="mb-6 rounded" />}
-      <div className="mb-4 text-gray-500">
-        {event.date} &middot; {event.time} &middot; {event.location}
+      <div className="not-prose mb-4">
+        <Link href="/projects" className="no-underline text-primary-500 hover:text-primary-600">
+          ← Back
+        </Link>
       </div>
-      <MDXContent />
+      <h1>{project.title}</h1>
+      {project.image && (
+        <Image src={project.image} alt={project.title} width={800} height={400} className="mb-6 rounded" />
+      )}
+      <div className="mb-4 text-gray-500">
+        {project.role && (
+          <div>
+            <strong>Role:</strong> {project.role}
+          </div>
+        )}
+        {project.mentors && (
+          <div>
+            <strong>Mentors:</strong> {project.mentors}
+          </div>
+        )}
+        <div className="text-sm text-gray-400">
+          {format(new Date(project.date), 'MMM yyyy')}
+          {project.endDate ? ` – ${format(new Date(project.endDate), 'MMM yyyy')}` : ''}
+        </div>
+      </div>
+      <MDXContentClient code={project.body.code || ''} />
     </article>
   )
 }

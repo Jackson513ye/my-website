@@ -1,0 +1,141 @@
+[
+  {
+    "title": "CGI Inhouse day",
+    "date": "2025-02-10T00:00:00.000Z",
+    "time": "2:30 PM – 5:05 PM",
+    "eventType": "single",
+    "location": "CGI Nederland | Rotterdam",
+    "excerpt": "Join GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day to explore career opportunities and company culture.",
+    "image": "/images/events/CGI_event.jpg",
+    "body": {
+      "raw": "\nJoin GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day! This is a fantastic opportunity to get an inside look at one of the leading IT consulting companies, explore their work environment, meet professionals, and learn about potential career paths in the tech industry.\n\nCGI is a global leader in IT and business consulting services, and this visit will give you valuable insights into how technology solutions are developed and implemented for various industries. Don't miss this chance to network with CGI professionals and discover internship and job opportunities that could shape your future career.\n\nMore details and signup information will be provided soon. Stay tuned!\n",
+      "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),x=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},r=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of m(n))!g.call(e,i)&&i!==o&&a(e,i,{get:()=>n[i],enumerable:!(s=h(n,i))||s.enumerable});return e};var y=(e,n,o)=>(o=e!=null?p(v(e)):{},r(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),I=e=>r(a({},\"__esModule\",{value:!0}),e);var l=f((j,d)=>{d.exports=_jsx_runtime});var G={};x(G,{default:()=>u,frontmatter:()=>C});var t=y(l()),C={title:\"CGI Inhouse day\",date:\"2025-02-10\",time:\"2:30 PM \\u2013 5:05 PM\",eventType:\"single\",location:\"CGI Nederland | Rotterdam\",excerpt:\"Join GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day to explore career opportunities and company culture.\",image:\"/images/events/CGI_event.jpg\"};function c(e){let n={p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.p,{children:\"Join GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day! This is a fantastic opportunity to get an inside look at one of the leading IT consulting companies, explore their work environment, meet professionals, and learn about potential career paths in the tech industry.\"}),(0,t.jsx)(n.p,{children:\"CGI is a global leader in IT and business consulting services, and this visit will give you valuable insights into how technology solutions are developed and implemented for various industries. Don't miss this chance to network with CGI professionals and discover internship and job opportunities that could shape your future career.\"}),(0,t.jsx)(n.p,{children:\"More details and signup information will be provided soon. Stay tuned!\"})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return I(G);})();\n;return Component;"
+    },
+    "_id": "events/cgi-inhouse-day.mdx",
+    "_raw": {
+      "sourceFilePath": "events/cgi-inhouse-day.mdx",
+      "sourceFileName": "cgi-inhouse-day.mdx",
+      "sourceFileDir": "events",
+      "contentType": "mdx",
+      "flattenedPath": "events/cgi-inhouse-day"
+    },
+    "type": "Event",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.545,
+      "time": 32700,
+      "words": 109
+    },
+    "slug": "cgi-inhouse-day",
+    "path": "events/cgi-inhouse-day",
+    "filePath": "events/cgi-inhouse-day.mdx",
+    "toc": []
+  },
+  {
+    "title": "INTERGEO",
+    "date": "2024-09-24T00:00:00.000Z",
+    "endDate": "2024-09-26T00:00:00.000Z",
+    "eventType": "multi-day",
+    "location": "Stuttgart, Germany",
+    "excerpt": "Join GEOS at INTERGEO, the world leading conference for geodesy, geoinformation and land management, for networking and exploring advancements in the field.",
+    "image": "/images/events/intergeo_24.png",
+    "body": {
+      "raw": "\nJoin GEOS at INTERGEO 2024 in Stuttgart! INTERGEO is the world's leading conference and trade fair for geodesy, geoinformation, and land management. This three-day event brings together professionals, researchers, and students from around the globe to explore the latest advancements and innovations in our field.\n\n## What to Expect\n\nINTERGEO offers an incredible opportunity to:\n\n- Network with industry professionals and researchers\n- Discover cutting-edge technologies and solutions\n- Attend technical presentations and workshops\n- Explore career opportunities with leading companies\n- Connect with the global geomatics community\n\n## Conference Details\n\n- **Dates:** September 24-26, 2024\n- **Location:** Stuttgart, Germany\n- **Organized by:** GEOS (Geomatics Students Association)\n\nThis is a unique chance to immerse yourself in the international geomatics scene and gain insights that will benefit your studies and future career. The conference covers topics ranging from surveying and mapping to GIS, remote sensing, and spatial data infrastructure.\n\nRegistration deadline was July 10th. Contact GEOS for more information about future INTERGEO opportunities.\n",
+      "code": "var Component=(()=>{var g=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var w=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var a in e)r(t,a,{get:e[a],enumerable:!0})},l=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of m(e))!f.call(t,i)&&i!==a&&r(t,i,{get:()=>e[i],enumerable:!(o=p(e,i))||o.enumerable});return t};var E=(t,e,a)=>(a=t!=null?g(u(t)):{},l(e||!t||!t.__esModule?r(a,\"default\",{value:t,enumerable:!0}):a,t)),v=t=>l(r({},\"__esModule\",{value:!0}),t);var c=w((O,s)=>{s.exports=_jsx_runtime});var G={};x(G,{default:()=>h,frontmatter:()=>y});var n=E(c()),y={title:\"INTERGEO\",date:\"2024-09-24\",endDate:\"2024-09-26\",eventType:\"multi-day\",location:\"Stuttgart, Germany\",excerpt:\"Join GEOS at INTERGEO, the world leading conference for geodesy, geoinformation and land management, for networking and exploring advancements in the field.\",image:\"/images/events/intergeo_24.png\"};function d(t){let e={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",path:\"path\",span:\"span\",strong:\"strong\",svg:\"svg\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"Join GEOS at INTERGEO 2024 in Stuttgart! INTERGEO is the world's leading conference and trade fair for geodesy, geoinformation, and land management. This three-day event brings together professionals, researchers, and students from around the globe to explore the latest advancements and innovations in our field.\"}),(0,n.jsxs)(e.h2,{className:\"content-header\",id:\"what-to-expect\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#what-to-expect\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(e.span,{className:\"content-header-link\",children:(0,n.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"What to Expect\"]}),(0,n.jsx)(e.p,{children:\"INTERGEO offers an incredible opportunity to:\"}),(0,n.jsxs)(e.ul,{children:[(0,n.jsx)(e.li,{children:\"Network with industry professionals and researchers\"}),(0,n.jsx)(e.li,{children:\"Discover cutting-edge technologies and solutions\"}),(0,n.jsx)(e.li,{children:\"Attend technical presentations and workshops\"}),(0,n.jsx)(e.li,{children:\"Explore career opportunities with leading companies\"}),(0,n.jsx)(e.li,{children:\"Connect with the global geomatics community\"})]}),(0,n.jsxs)(e.h2,{className:\"content-header\",id:\"conference-details\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#conference-details\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(e.span,{className:\"content-header-link\",children:(0,n.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Conference Details\"]}),(0,n.jsxs)(e.ul,{children:[(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Dates:\"}),\" September 24-26, 2024\"]}),(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Location:\"}),\" Stuttgart, Germany\"]}),(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Organized by:\"}),\" GEOS (Geomatics Students Association)\"]})]}),(0,n.jsx)(e.p,{children:\"This is a unique chance to immerse yourself in the international geomatics scene and gain insights that will benefit your studies and future career. The conference covers topics ranging from surveying and mapping to GIS, remote sensing, and spatial data infrastructure.\"}),(0,n.jsx)(e.p,{children:\"Registration deadline was July 10th. Contact GEOS for more information about future INTERGEO opportunities.\"})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return v(G);})();\n;return Component;"
+    },
+    "_id": "events/intergeo.mdx",
+    "_raw": {
+      "sourceFilePath": "events/intergeo.mdx",
+      "sourceFileName": "intergeo.mdx",
+      "sourceFileDir": "events",
+      "contentType": "mdx",
+      "flattenedPath": "events/intergeo"
+    },
+    "type": "Event",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.81,
+      "time": 48600,
+      "words": 162
+    },
+    "slug": "intergeo",
+    "path": "events/intergeo",
+    "filePath": "events/intergeo.mdx",
+    "toc": [
+      {
+        "value": "What to Expect",
+        "url": "#what-to-expect",
+        "depth": 2
+      },
+      {
+        "value": "Conference Details",
+        "url": "#conference-details",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "title": "International Dinner",
+    "date": "2024-12-12T00:00:00.000Z",
+    "time": "6:00 PM – 11:30 PM",
+    "eventType": "single",
+    "location": "GEOLAB (Faculty of Architecture, TU Delft)",
+    "excerpt": "1st and 2nd-year MSc Geomatics students are invited to showcase cuisine from their home countries in this cultural celebration and networking event.",
+    "image": "/images/events/dinner.jpg",
+    "body": {
+      "raw": "\nJoin us for an exciting International Dinner at the GEOLAB! This cultural celebration brings together 1st and 2nd-year MSc Geomatics students to share the flavors and traditions of their home countries.\n\nEveryone is encouraged to team up with people from the same country to showcase your cuisine together. It's a wonderful opportunity to:\n\n- Share your cultural heritage through food\n- Learn about different cuisines from around the world\n- Network with fellow Geomatics students\n- Build international friendships\n- Experience the diversity of our program\n\nWhether you're an experienced cook or just starting out, this event is about celebrating our international community and creating connections that will last throughout your studies and beyond.\n\nSign up through the provided Google form to participate in this delicious cultural exchange!\n",
+      "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var i in e)o(t,i,{get:e[i],enumerable:!0})},s=(t,e,i,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!f.call(t,r)&&r!==i&&o(t,r,{get:()=>e[r],enumerable:!(a=m(e,r))||a.enumerable});return t};var w=(t,e,i)=>(i=t!=null?d(g(t)):{},s(e||!t||!t.__esModule?o(i,\"default\",{value:t,enumerable:!0}):i,t)),v=t=>s(o({},\"__esModule\",{value:!0}),t);var l=y((_,c)=>{c.exports=_jsx_runtime});var j={};x(j,{default:()=>h,frontmatter:()=>b});var n=w(l()),b={title:\"International Dinner\",date:\"2024-12-12\",time:\"6:00 PM \\u2013 11:30 PM\",eventType:\"single\",location:\"GEOLAB (Faculty of Architecture, TU Delft)\",excerpt:\"1st and 2nd-year MSc Geomatics students are invited to showcase cuisine from their home countries in this cultural celebration and networking event.\",image:\"/images/events/dinner.jpg\"};function u(t){let e={li:\"li\",p:\"p\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"Join us for an exciting International Dinner at the GEOLAB! This cultural celebration brings together 1st and 2nd-year MSc Geomatics students to share the flavors and traditions of their home countries.\"}),(0,n.jsx)(e.p,{children:\"Everyone is encouraged to team up with people from the same country to showcase your cuisine together. It's a wonderful opportunity to:\"}),(0,n.jsxs)(e.ul,{children:[(0,n.jsx)(e.li,{children:\"Share your cultural heritage through food\"}),(0,n.jsx)(e.li,{children:\"Learn about different cuisines from around the world\"}),(0,n.jsx)(e.li,{children:\"Network with fellow Geomatics students\"}),(0,n.jsx)(e.li,{children:\"Build international friendships\"}),(0,n.jsx)(e.li,{children:\"Experience the diversity of our program\"})]}),(0,n.jsx)(e.p,{children:\"Whether you're an experienced cook or just starting out, this event is about celebrating our international community and creating connections that will last throughout your studies and beyond.\"}),(0,n.jsx)(e.p,{children:\"Sign up through the provided Google form to participate in this delicious cultural exchange!\"})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(u,{...t})}):u(t)}return v(j);})();\n;return Component;"
+    },
+    "_id": "events/international-dinner.mdx",
+    "_raw": {
+      "sourceFilePath": "events/international-dinner.mdx",
+      "sourceFileName": "international-dinner.mdx",
+      "sourceFileDir": "events",
+      "contentType": "mdx",
+      "flattenedPath": "events/international-dinner"
+    },
+    "type": "Event",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.64,
+      "time": 38400,
+      "words": 128
+    },
+    "slug": "international-dinner",
+    "path": "events/international-dinner",
+    "filePath": "events/international-dinner.mdx",
+    "toc": []
+  },
+  {
+    "title": "Lunch Lecture Enginear",
+    "date": "2025-03-05T00:00:00.000Z",
+    "time": "12:30 PM – 1:30 PM",
+    "eventType": "single",
+    "location": "Hall P",
+    "excerpt": "Laurie van Bemmel from Enginear is hosting a lunch lecture for all Geomatics students about career paths, internships, and technical jobs in the built environment sector.",
+    "image": "/images/events/lunch-lecture.jpg",
+    "body": {
+      "raw": "\nOn March 5th at 12:30 PM, Laurie van Bemmel from Enginear is hosting a lunch lecture for all Geomatics students. Enginear is a leading company in the built environment, offering insights into their work in areas like geo-information, civil engineering, and urban planning. They'll discuss career paths, internships, and flexible technical jobs that can help boost your resume and kickstart your career. Plus, it's a great opportunity to network with professionals and learn about available technical side jobs that complement your studies. Don't miss this chance to gain valuable career advice and make connections! Sign up using this form:\n\n[https://forms.gle/dYLvpRXKVrXGhJcX7](https://forms.gle/dYLvpRXKVrXGhJcX7)\n\n**Deadline Friday 28/2**\n",
+      "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),v=(n,e)=>{for(var a in e)r(n,a,{get:e[a],enumerable:!0})},o=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of d(e))!f.call(n,i)&&i!==a&&r(n,i,{get:()=>e[i],enumerable:!(s=g(e,i))||s.enumerable});return n};var x=(n,e,a)=>(a=n!=null?m(p(n)):{},o(e||!n||!n.__esModule?r(a,\"default\",{value:n,enumerable:!0}):a,n)),j=n=>o(r({},\"__esModule\",{value:!0}),n);var l=b((M,c)=>{c.exports=_jsx_runtime});var X={};v(X,{default:()=>u,frontmatter:()=>y});var t=x(l()),y={title:\"Lunch Lecture Enginear\",date:\"2025-03-05\",time:\"12:30 PM \\u2013 1:30 PM\",eventType:\"single\",location:\"Hall P\",excerpt:\"Laurie van Bemmel from Enginear is hosting a lunch lecture for all Geomatics students about career paths, internships, and technical jobs in the built environment sector.\",image:\"/images/events/lunch-lecture.jpg\"};function h(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.p,{children:\"On March 5th at 12:30 PM, Laurie van Bemmel from Enginear is hosting a lunch lecture for all Geomatics students. Enginear is a leading company in the built environment, offering insights into their work in areas like geo-information, civil engineering, and urban planning. They'll discuss career paths, internships, and flexible technical jobs that can help boost your resume and kickstart your career. Plus, it's a great opportunity to network with professionals and learn about available technical side jobs that complement your studies. Don't miss this chance to gain valuable career advice and make connections! Sign up using this form:\"}),(0,t.jsx)(e.p,{children:(0,t.jsx)(e.a,{href:\"https://forms.gle/dYLvpRXKVrXGhJcX7\",children:\"https://forms.gle/dYLvpRXKVrXGhJcX7\"})}),(0,t.jsx)(e.p,{children:(0,t.jsx)(e.strong,{children:\"Deadline Friday 28/2\"})})]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(h,{...n})}):h(n)}return j(X);})();\n;return Component;"
+    },
+    "_id": "events/lunch-lecture-enginear.mdx",
+    "_raw": {
+      "sourceFilePath": "events/lunch-lecture-enginear.mdx",
+      "sourceFileName": "lunch-lecture-enginear.mdx",
+      "sourceFileDir": "events",
+      "contentType": "mdx",
+      "flattenedPath": "events/lunch-lecture-enginear"
+    },
+    "type": "Event",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.515,
+      "time": 30900,
+      "words": 103
+    },
+    "slug": "lunch-lecture-enginear",
+    "path": "events/lunch-lecture-enginear",
+    "filePath": "events/lunch-lecture-enginear.mdx",
+    "toc": []
+  }
+]

@@ -1,0 +1,650 @@
+{
+  "cacheItemsMap": {
+    "careers/example-career.md": {
+      "document": {
+        "title": "Geotechnical Engineer",
+        "company": "Fugro",
+        "companyLogo": "/images/careers/fugro-logo.png",
+        "location": "Delft, Netherlands",
+        "description": "We are looking for an experienced Geotechnical Engineer to join our team in Delft. The ideal candidate will work on various geotechnical projects, including site investigations, foundation design, and geotechnical analysis.",
+        "applicationDeadline": "2024-04-30",
+        "applicationLink": "https://www.fugro.com/careers",
+        "body": {
+          "raw": "\n# Geotechnical Engineer Position at Fugro\n\n## About the Role\n\nAs a Geotechnical Engineer at Fugro, you will be responsible for:\n\n- Conducting geotechnical site investigations\n- Performing geotechnical analysis and design\n- Preparing technical reports and documentation\n- Collaborating with multidisciplinary teams\n- Managing projects and client relationships\n\n## Requirements\n\n- \"Master's degree in Civil Engineering, Geotechnical Engineering, or related field\"\n- 'Minimum 3 years of experience in geotechnical engineering'\n- 'Strong knowledge of geotechnical software and analysis tools'\n- 'Excellent communication skills in English and Dutch'\n- 'Experience with project management'\n\n## What We Offer\n\n- Competitive salary and benefits\n- Professional development opportunities\n- International project exposure\n- Modern office environment\n- Work-life balance\n\n## Application Process\n\nTo apply for this position, please submit your application through our careers portal before the deadline. Make sure to include:\n\n- Updated CV\n- Cover letter\n- Relevant certificates and diplomas\n- Portfolio of previous work (if applicable)\n",
+          "code": "var Component=(()=>{var p=Object.create;var r=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var w=(i,e)=>()=>(e||i((e={exports:{}}).exports,e),e.exports),x=(i,e)=>{for(var l in e)r(i,l,{get:e[l],enumerable:!0})},o=(i,e,l,t)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of u(e))!f.call(i,a)&&a!==l&&r(i,a,{get:()=>e[a],enumerable:!(t=g(e,a))||t.enumerable});return i};var v=(i,e,l)=>(l=i!=null?p(m(i)):{},o(e||!i||!i.__esModule?r(l,\"default\",{value:i,enumerable:!0}):l,i)),k=i=>o(r({},\"__esModule\",{value:!0}),i);var h=w((C,c)=>{c.exports=_jsx_runtime});var b={};x(b,{default:()=>d,frontmatter:()=>M});var n=v(h()),M={title:\"Geotechnical Engineer\",company:\"Fugro\",companyLogo:\"/images/careers/fugro-logo.png\",location:\"Delft, Netherlands\",description:\"We are looking for an experienced Geotechnical Engineer to join our team in Delft. The ideal candidate will work on various geotechnical projects, including site investigations, foundation design, and geotechnical analysis.\",applicationDeadline:\"2024-04-30\",applicationLink:\"https://www.fugro.com/careers\"};function s(i){let e={a:\"a\",h1:\"h1\",h2:\"h2\",li:\"li\",p:\"p\",path:\"path\",span:\"span\",svg:\"svg\",ul:\"ul\",...i.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsxs)(e.h1,{className:\"content-header\",id:\"geotechnical-engineer-position-at-fugro\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#geotechnical-engineer-position-at-fugro\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(e.span,{className:\"content-header-link\",children:(0,n.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Geotechnical Engineer Position at Fugro\"]}),(0,n.jsxs)(e.h2,{className:\"content-header\",id:\"about-the-role\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#about-the-role\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(e.span,{className:\"content-header-link\",children:(0,n.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"About the Role\"]}),(0,n.jsx)(e.p,{children:\"As a Geotechnical Engineer at Fugro, you will be responsible for:\"}),(0,n.jsxs)(e.ul,{children:[(0,n.jsx)(e.li,{children:\"Conducting geotechnical site investigations\"}),(0,n.jsx)(e.li,{children:\"Performing geotechnical analysis and design\"}),(0,n.jsx)(e.li,{children:\"Preparing technical reports and documentation\"}),(0,n.jsx)(e.li,{children:\"Collaborating with multidisciplinary teams\"}),(0,n.jsx)(e.li,{children:\"Managing projects and client relationships\"})]}),(0,n.jsxs)(e.h2,{className:\"content-header\",id:\"requirements\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#requirements\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(e.span,{className:\"content-header-link\",children:(0,n.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Requirements\"]}),(0,n.jsxs)(e.ul,{children:[(0,n.jsx)(e.li,{children:`\"Master's degree in Civil Engineering, Geotechnical Engineering, or related field\"`}),(0,n.jsx)(e.li,{children:\"'Minimum 3 years of experience in geotechnical engineering'\"}),(0,n.jsx)(e.li,{children:\"'Strong knowledge of geotechnical software and analysis tools'\"}),(0,n.jsx)(e.li,{children:\"'Excellent communication skills in English and Dutch'\"}),(0,n.jsx)(e.li,{children:\"'Experience with project management'\"})]}),(0,n.jsxs)(e.h2,{className:\"content-header\",id:\"what-we-offer\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#what-we-offer\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(e.span,{className:\"content-header-link\",children:(0,n.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"What We Offer\"]}),(0,n.jsxs)(e.ul,{children:[(0,n.jsx)(e.li,{children:\"Competitive salary and benefits\"}),(0,n.jsx)(e.li,{children:\"Professional development opportunities\"}),(0,n.jsx)(e.li,{children:\"International project exposure\"}),(0,n.jsx)(e.li,{children:\"Modern office environment\"}),(0,n.jsx)(e.li,{children:\"Work-life balance\"})]}),(0,n.jsxs)(e.h2,{className:\"content-header\",id:\"application-process\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#application-process\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(e.span,{className:\"content-header-link\",children:(0,n.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Application Process\"]}),(0,n.jsx)(e.p,{children:\"To apply for this position, please submit your application through our careers portal before the deadline. Make sure to include:\"}),(0,n.jsxs)(e.ul,{children:[(0,n.jsx)(e.li,{children:\"Updated CV\"}),(0,n.jsx)(e.li,{children:\"Cover letter\"}),(0,n.jsx)(e.li,{children:\"Relevant certificates and diplomas\"}),(0,n.jsx)(e.li,{children:\"Portfolio of previous work (if applicable)\"})]})]})}function d(i={}){let{wrapper:e}=i.components||{};return e?(0,n.jsx)(e,{...i,children:(0,n.jsx)(s,{...i})}):s(i)}return k(b);})();\n;return Component;"
+        },
+        "_id": "careers/example-career.md",
+        "_raw": {
+          "sourceFilePath": "careers/example-career.md",
+          "sourceFileName": "example-career.md",
+          "sourceFileDir": "careers",
+          "contentType": "markdown",
+          "flattenedPath": "careers/example-career"
+        },
+        "type": "Career",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.79,
+          "time": 47400,
+          "words": 158
+        },
+        "slug": "example-career",
+        "path": "careers/example-career",
+        "filePath": "careers/example-career.md",
+        "toc": [
+          {
+            "value": "Geotechnical Engineer Position at Fugro",
+            "url": "#geotechnical-engineer-position-at-fugro",
+            "depth": 1
+          },
+          {
+            "value": "About the Role",
+            "url": "#about-the-role",
+            "depth": 2
+          },
+          {
+            "value": "Requirements",
+            "url": "#requirements",
+            "depth": 2
+          },
+          {
+            "value": "What We Offer",
+            "url": "#what-we-offer",
+            "depth": 2
+          },
+          {
+            "value": "Application Process",
+            "url": "#application-process",
+            "depth": 2
+          }
+        ]
+      },
+      "documentHash": "1754130648791",
+      "hasWarnings": false,
+      "documentTypeName": "Career"
+    },
+    "events/cgi-inhouse-day.mdx": {
+      "document": {
+        "title": "CGI Inhouse day",
+        "date": "2025-02-10T00:00:00.000Z",
+        "time": "2:30 PM – 5:05 PM",
+        "eventType": "single",
+        "location": "CGI Nederland | Rotterdam",
+        "excerpt": "Join GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day to explore career opportunities and company culture.",
+        "image": "/images/events/CGI_event.jpg",
+        "body": {
+          "raw": "\nJoin GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day! This is a fantastic opportunity to get an inside look at one of the leading IT consulting companies, explore their work environment, meet professionals, and learn about potential career paths in the tech industry.\n\nCGI is a global leader in IT and business consulting services, and this visit will give you valuable insights into how technology solutions are developed and implemented for various industries. Don't miss this chance to network with CGI professionals and discover internship and job opportunities that could shape your future career.\n\nMore details and signup information will be provided soon. Stay tuned!\n",
+          "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),x=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},r=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of m(n))!g.call(e,i)&&i!==o&&a(e,i,{get:()=>n[i],enumerable:!(s=h(n,i))||s.enumerable});return e};var y=(e,n,o)=>(o=e!=null?p(v(e)):{},r(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),I=e=>r(a({},\"__esModule\",{value:!0}),e);var l=f((j,d)=>{d.exports=_jsx_runtime});var G={};x(G,{default:()=>u,frontmatter:()=>C});var t=y(l()),C={title:\"CGI Inhouse day\",date:\"2025-02-10\",time:\"2:30 PM \\u2013 5:05 PM\",eventType:\"single\",location:\"CGI Nederland | Rotterdam\",excerpt:\"Join GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day to explore career opportunities and company culture.\",image:\"/images/events/CGI_event.jpg\"};function c(e){let n={p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.p,{children:\"Join GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day! This is a fantastic opportunity to get an inside look at one of the leading IT consulting companies, explore their work environment, meet professionals, and learn about potential career paths in the tech industry.\"}),(0,t.jsx)(n.p,{children:\"CGI is a global leader in IT and business consulting services, and this visit will give you valuable insights into how technology solutions are developed and implemented for various industries. Don't miss this chance to network with CGI professionals and discover internship and job opportunities that could shape your future career.\"}),(0,t.jsx)(n.p,{children:\"More details and signup information will be provided soon. Stay tuned!\"})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return I(G);})();\n;return Component;"
+        },
+        "_id": "events/cgi-inhouse-day.mdx",
+        "_raw": {
+          "sourceFilePath": "events/cgi-inhouse-day.mdx",
+          "sourceFileName": "cgi-inhouse-day.mdx",
+          "sourceFileDir": "events",
+          "contentType": "mdx",
+          "flattenedPath": "events/cgi-inhouse-day"
+        },
+        "type": "Event",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.545,
+          "time": 32700,
+          "words": 109
+        },
+        "slug": "cgi-inhouse-day",
+        "path": "events/cgi-inhouse-day",
+        "filePath": "events/cgi-inhouse-day.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648791",
+      "hasWarnings": false,
+      "documentTypeName": "Event"
+    },
+    "events/intergeo.mdx": {
+      "document": {
+        "title": "INTERGEO",
+        "date": "2024-09-24T00:00:00.000Z",
+        "endDate": "2024-09-26T00:00:00.000Z",
+        "eventType": "multi-day",
+        "location": "Stuttgart, Germany",
+        "excerpt": "Join GEOS at INTERGEO, the world leading conference for geodesy, geoinformation and land management, for networking and exploring advancements in the field.",
+        "image": "/images/events/intergeo_24.png",
+        "body": {
+          "raw": "\nJoin GEOS at INTERGEO 2024 in Stuttgart! INTERGEO is the world's leading conference and trade fair for geodesy, geoinformation, and land management. This three-day event brings together professionals, researchers, and students from around the globe to explore the latest advancements and innovations in our field.\n\n## What to Expect\n\nINTERGEO offers an incredible opportunity to:\n\n- Network with industry professionals and researchers\n- Discover cutting-edge technologies and solutions\n- Attend technical presentations and workshops\n- Explore career opportunities with leading companies\n- Connect with the global geomatics community\n\n## Conference Details\n\n- **Dates:** September 24-26, 2024\n- **Location:** Stuttgart, Germany\n- **Organized by:** GEOS (Geomatics Students Association)\n\nThis is a unique chance to immerse yourself in the international geomatics scene and gain insights that will benefit your studies and future career. The conference covers topics ranging from surveying and mapping to GIS, remote sensing, and spatial data infrastructure.\n\nRegistration deadline was July 10th. Contact GEOS for more information about future INTERGEO opportunities.\n",
+          "code": "var Component=(()=>{var g=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var w=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var a in e)r(t,a,{get:e[a],enumerable:!0})},l=(t,e,a,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of m(e))!f.call(t,i)&&i!==a&&r(t,i,{get:()=>e[i],enumerable:!(o=p(e,i))||o.enumerable});return t};var E=(t,e,a)=>(a=t!=null?g(u(t)):{},l(e||!t||!t.__esModule?r(a,\"default\",{value:t,enumerable:!0}):a,t)),v=t=>l(r({},\"__esModule\",{value:!0}),t);var c=w((O,s)=>{s.exports=_jsx_runtime});var G={};x(G,{default:()=>h,frontmatter:()=>y});var n=E(c()),y={title:\"INTERGEO\",date:\"2024-09-24\",endDate:\"2024-09-26\",eventType:\"multi-day\",location:\"Stuttgart, Germany\",excerpt:\"Join GEOS at INTERGEO, the world leading conference for geodesy, geoinformation and land management, for networking and exploring advancements in the field.\",image:\"/images/events/intergeo_24.png\"};function d(t){let e={a:\"a\",h2:\"h2\",li:\"li\",p:\"p\",path:\"path\",span:\"span\",strong:\"strong\",svg:\"svg\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"Join GEOS at INTERGEO 2024 in Stuttgart! INTERGEO is the world's leading conference and trade fair for geodesy, geoinformation, and land management. This three-day event brings together professionals, researchers, and students from around the globe to explore the latest advancements and innovations in our field.\"}),(0,n.jsxs)(e.h2,{className:\"content-header\",id:\"what-to-expect\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#what-to-expect\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(e.span,{className:\"content-header-link\",children:(0,n.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"What to Expect\"]}),(0,n.jsx)(e.p,{children:\"INTERGEO offers an incredible opportunity to:\"}),(0,n.jsxs)(e.ul,{children:[(0,n.jsx)(e.li,{children:\"Network with industry professionals and researchers\"}),(0,n.jsx)(e.li,{children:\"Discover cutting-edge technologies and solutions\"}),(0,n.jsx)(e.li,{children:\"Attend technical presentations and workshops\"}),(0,n.jsx)(e.li,{children:\"Explore career opportunities with leading companies\"}),(0,n.jsx)(e.li,{children:\"Connect with the global geomatics community\"})]}),(0,n.jsxs)(e.h2,{className:\"content-header\",id:\"conference-details\",children:[(0,n.jsx)(e.a,{\"aria-hidden\":\"true\",href:\"#conference-details\",tabIndex:\"-1\",children:(0,n.jsx)(n.Fragment,{children:(0,n.jsx)(e.span,{className:\"content-header-link\",children:(0,n.jsxs)(e.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,n.jsx)(e.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,n.jsx)(e.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Conference Details\"]}),(0,n.jsxs)(e.ul,{children:[(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Dates:\"}),\" September 24-26, 2024\"]}),(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Location:\"}),\" Stuttgart, Germany\"]}),(0,n.jsxs)(e.li,{children:[(0,n.jsx)(e.strong,{children:\"Organized by:\"}),\" GEOS (Geomatics Students Association)\"]})]}),(0,n.jsx)(e.p,{children:\"This is a unique chance to immerse yourself in the international geomatics scene and gain insights that will benefit your studies and future career. The conference covers topics ranging from surveying and mapping to GIS, remote sensing, and spatial data infrastructure.\"}),(0,n.jsx)(e.p,{children:\"Registration deadline was July 10th. Contact GEOS for more information about future INTERGEO opportunities.\"})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return v(G);})();\n;return Component;"
+        },
+        "_id": "events/intergeo.mdx",
+        "_raw": {
+          "sourceFilePath": "events/intergeo.mdx",
+          "sourceFileName": "intergeo.mdx",
+          "sourceFileDir": "events",
+          "contentType": "mdx",
+          "flattenedPath": "events/intergeo"
+        },
+        "type": "Event",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.81,
+          "time": 48600,
+          "words": 162
+        },
+        "slug": "intergeo",
+        "path": "events/intergeo",
+        "filePath": "events/intergeo.mdx",
+        "toc": [
+          {
+            "value": "What to Expect",
+            "url": "#what-to-expect",
+            "depth": 2
+          },
+          {
+            "value": "Conference Details",
+            "url": "#conference-details",
+            "depth": 2
+          }
+        ]
+      },
+      "documentHash": "1754130648791",
+      "hasWarnings": false,
+      "documentTypeName": "Event"
+    },
+    "events/international-dinner.mdx": {
+      "document": {
+        "title": "International Dinner",
+        "date": "2024-12-12T00:00:00.000Z",
+        "time": "6:00 PM – 11:30 PM",
+        "eventType": "single",
+        "location": "GEOLAB (Faculty of Architecture, TU Delft)",
+        "excerpt": "1st and 2nd-year MSc Geomatics students are invited to showcase cuisine from their home countries in this cultural celebration and networking event.",
+        "image": "/images/events/dinner.jpg",
+        "body": {
+          "raw": "\nJoin us for an exciting International Dinner at the GEOLAB! This cultural celebration brings together 1st and 2nd-year MSc Geomatics students to share the flavors and traditions of their home countries.\n\nEveryone is encouraged to team up with people from the same country to showcase your cuisine together. It's a wonderful opportunity to:\n\n- Share your cultural heritage through food\n- Learn about different cuisines from around the world\n- Network with fellow Geomatics students\n- Build international friendships\n- Experience the diversity of our program\n\nWhether you're an experienced cook or just starting out, this event is about celebrating our international community and creating connections that will last throughout your studies and beyond.\n\nSign up through the provided Google form to participate in this delicious cultural exchange!\n",
+          "code": "var Component=(()=>{var d=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var y=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var i in e)o(t,i,{get:e[i],enumerable:!0})},s=(t,e,i,a)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!f.call(t,r)&&r!==i&&o(t,r,{get:()=>e[r],enumerable:!(a=m(e,r))||a.enumerable});return t};var w=(t,e,i)=>(i=t!=null?d(g(t)):{},s(e||!t||!t.__esModule?o(i,\"default\",{value:t,enumerable:!0}):i,t)),v=t=>s(o({},\"__esModule\",{value:!0}),t);var l=y((_,c)=>{c.exports=_jsx_runtime});var j={};x(j,{default:()=>h,frontmatter:()=>b});var n=w(l()),b={title:\"International Dinner\",date:\"2024-12-12\",time:\"6:00 PM \\u2013 11:30 PM\",eventType:\"single\",location:\"GEOLAB (Faculty of Architecture, TU Delft)\",excerpt:\"1st and 2nd-year MSc Geomatics students are invited to showcase cuisine from their home countries in this cultural celebration and networking event.\",image:\"/images/events/dinner.jpg\"};function u(t){let e={li:\"li\",p:\"p\",ul:\"ul\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"Join us for an exciting International Dinner at the GEOLAB! This cultural celebration brings together 1st and 2nd-year MSc Geomatics students to share the flavors and traditions of their home countries.\"}),(0,n.jsx)(e.p,{children:\"Everyone is encouraged to team up with people from the same country to showcase your cuisine together. It's a wonderful opportunity to:\"}),(0,n.jsxs)(e.ul,{children:[(0,n.jsx)(e.li,{children:\"Share your cultural heritage through food\"}),(0,n.jsx)(e.li,{children:\"Learn about different cuisines from around the world\"}),(0,n.jsx)(e.li,{children:\"Network with fellow Geomatics students\"}),(0,n.jsx)(e.li,{children:\"Build international friendships\"}),(0,n.jsx)(e.li,{children:\"Experience the diversity of our program\"})]}),(0,n.jsx)(e.p,{children:\"Whether you're an experienced cook or just starting out, this event is about celebrating our international community and creating connections that will last throughout your studies and beyond.\"}),(0,n.jsx)(e.p,{children:\"Sign up through the provided Google form to participate in this delicious cultural exchange!\"})]})}function h(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(u,{...t})}):u(t)}return v(j);})();\n;return Component;"
+        },
+        "_id": "events/international-dinner.mdx",
+        "_raw": {
+          "sourceFilePath": "events/international-dinner.mdx",
+          "sourceFileName": "international-dinner.mdx",
+          "sourceFileDir": "events",
+          "contentType": "mdx",
+          "flattenedPath": "events/international-dinner"
+        },
+        "type": "Event",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.64,
+          "time": 38400,
+          "words": 128
+        },
+        "slug": "international-dinner",
+        "path": "events/international-dinner",
+        "filePath": "events/international-dinner.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648791",
+      "hasWarnings": false,
+      "documentTypeName": "Event"
+    },
+    "events/lunch-lecture-enginear.mdx": {
+      "document": {
+        "title": "Lunch Lecture Enginear",
+        "date": "2025-03-05T00:00:00.000Z",
+        "time": "12:30 PM – 1:30 PM",
+        "eventType": "single",
+        "location": "Hall P",
+        "excerpt": "Laurie van Bemmel from Enginear is hosting a lunch lecture for all Geomatics students about career paths, internships, and technical jobs in the built environment sector.",
+        "image": "/images/events/lunch-lecture.jpg",
+        "body": {
+          "raw": "\nOn March 5th at 12:30 PM, Laurie van Bemmel from Enginear is hosting a lunch lecture for all Geomatics students. Enginear is a leading company in the built environment, offering insights into their work in areas like geo-information, civil engineering, and urban planning. They'll discuss career paths, internships, and flexible technical jobs that can help boost your resume and kickstart your career. Plus, it's a great opportunity to network with professionals and learn about available technical side jobs that complement your studies. Don't miss this chance to gain valuable career advice and make connections! Sign up using this form:\n\n[https://forms.gle/dYLvpRXKVrXGhJcX7](https://forms.gle/dYLvpRXKVrXGhJcX7)\n\n**Deadline Friday 28/2**\n",
+          "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var b=(n,e)=>()=>(e||n((e={exports:{}}).exports,e),e.exports),v=(n,e)=>{for(var a in e)r(n,a,{get:e[a],enumerable:!0})},o=(n,e,a,s)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of d(e))!f.call(n,i)&&i!==a&&r(n,i,{get:()=>e[i],enumerable:!(s=g(e,i))||s.enumerable});return n};var x=(n,e,a)=>(a=n!=null?m(p(n)):{},o(e||!n||!n.__esModule?r(a,\"default\",{value:n,enumerable:!0}):a,n)),j=n=>o(r({},\"__esModule\",{value:!0}),n);var l=b((M,c)=>{c.exports=_jsx_runtime});var X={};v(X,{default:()=>u,frontmatter:()=>y});var t=x(l()),y={title:\"Lunch Lecture Enginear\",date:\"2025-03-05\",time:\"12:30 PM \\u2013 1:30 PM\",eventType:\"single\",location:\"Hall P\",excerpt:\"Laurie van Bemmel from Enginear is hosting a lunch lecture for all Geomatics students about career paths, internships, and technical jobs in the built environment sector.\",image:\"/images/events/lunch-lecture.jpg\"};function h(n){let e={a:\"a\",p:\"p\",strong:\"strong\",...n.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(e.p,{children:\"On March 5th at 12:30 PM, Laurie van Bemmel from Enginear is hosting a lunch lecture for all Geomatics students. Enginear is a leading company in the built environment, offering insights into their work in areas like geo-information, civil engineering, and urban planning. They'll discuss career paths, internships, and flexible technical jobs that can help boost your resume and kickstart your career. Plus, it's a great opportunity to network with professionals and learn about available technical side jobs that complement your studies. Don't miss this chance to gain valuable career advice and make connections! Sign up using this form:\"}),(0,t.jsx)(e.p,{children:(0,t.jsx)(e.a,{href:\"https://forms.gle/dYLvpRXKVrXGhJcX7\",children:\"https://forms.gle/dYLvpRXKVrXGhJcX7\"})}),(0,t.jsx)(e.p,{children:(0,t.jsx)(e.strong,{children:\"Deadline Friday 28/2\"})})]})}function u(n={}){let{wrapper:e}=n.components||{};return e?(0,t.jsx)(e,{...n,children:(0,t.jsx)(h,{...n})}):h(n)}return j(X);})();\n;return Component;"
+        },
+        "_id": "events/lunch-lecture-enginear.mdx",
+        "_raw": {
+          "sourceFilePath": "events/lunch-lecture-enginear.mdx",
+          "sourceFileName": "lunch-lecture-enginear.mdx",
+          "sourceFileDir": "events",
+          "contentType": "mdx",
+          "flattenedPath": "events/lunch-lecture-enginear"
+        },
+        "type": "Event",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.515,
+          "time": 30900,
+          "words": 103
+        },
+        "slug": "lunch-lecture-enginear",
+        "path": "events/lunch-lecture-enginear",
+        "filePath": "events/lunch-lecture-enginear.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648792",
+      "hasWarnings": false,
+      "documentTypeName": "Event"
+    },
+    "projects/explainable-ml-tree-configurations.mdx": {
+      "document": {
+        "title": "Explainable Machine Learning Reveals Parameter Thresholds and Scene-based Adaptation of Tree Configurations",
+        "date": "2025-07-01T00:00:00.000Z",
+        "endDate": null,
+        "role": "Project Leader / Working Paper",
+        "mentors": "Asst.Prof. Wufan Zhao",
+        "excerpt": "Develop a teacher–student pipeline combining ENVI-met simulation labels and gradient-boosted models to predict thermal comfort from 3D tree structure at street scale and derive design-ready guidance.",
+        "image": "/images/projects/trees-ml-themed.svg",
+        "external": null,
+        "body": {
+          "raw": "\n- Built a teacher–student pipeline that fuses ENVI-met simulation outputs with gradient-boosted models to predict thermal comfort from 3D tree structures at street scale.\n- Integrated LiDAR and inventory data to derive tree configurations and minimal urban-form controls for robust generalisation across districts, climates, and street geometries.\n- Produced variable importances, practical thresholds, and interaction effects to generate context-specific design guidance for optimising tree configurations.\n",
+          "code": "var Component=(()=>{var u=Object.create;var i=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),b=(t,e)=>{for(var r in e)i(t,r,{get:e[r],enumerable:!0})},s=(t,e,r,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of g(e))!h.call(t,a)&&a!==r&&i(t,a,{get:()=>e[a],enumerable:!(o=f(e,a))||o.enumerable});return t};var j=(t,e,r)=>(r=t!=null?u(p(t)):{},s(e||!t||!t.__esModule?i(r,\"default\",{value:t,enumerable:!0}):r,t)),v=t=>s(i({},\"__esModule\",{value:!0}),t);var l=x((L,c)=>{c.exports=_jsx_runtime});var _={};b(_,{default:()=>m,frontmatter:()=>D});var n=j(l()),D={title:\"Explainable Machine Learning Reveals Parameter Thresholds and Scene-based Adaptation of Tree Configurations\",date:\"2025-07-01\",endDate:null,role:\"Project Leader / Working Paper\",mentors:\"Asst.Prof. Wufan Zhao\",excerpt:\"Develop a teacher\\u2013student pipeline combining ENVI-met simulation labels and gradient-boosted models to predict thermal comfort from 3D tree structure at street scale and derive design-ready guidance.\",image:\"/images/projects/trees-ml-themed.svg\",external:null};function d(t){let e={li:\"li\",ul:\"ul\",...t.components};return(0,n.jsxs)(e.ul,{children:[(0,n.jsx)(e.li,{children:\"Built a teacher\\u2013student pipeline that fuses ENVI-met simulation outputs with gradient-boosted models to predict thermal comfort from 3D tree structures at street scale.\"}),(0,n.jsx)(e.li,{children:\"Integrated LiDAR and inventory data to derive tree configurations and minimal urban-form controls for robust generalisation across districts, climates, and street geometries.\"}),(0,n.jsx)(e.li,{children:\"Produced variable importances, practical thresholds, and interaction effects to generate context-specific design guidance for optimising tree configurations.\"})]})}function m(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(d,{...t})}):d(t)}return v(_);})();\n;return Component;"
+        },
+        "_id": "projects/explainable-ml-tree-configurations.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/explainable-ml-tree-configurations.mdx",
+          "sourceFileName": "explainable-ml-tree-configurations.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/explainable-ml-tree-configurations"
+        },
+        "type": "Project",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.325,
+          "time": 19500,
+          "words": 65
+        },
+        "slug": "explainable-ml-tree-configurations",
+        "path": "projects/explainable-ml-tree-configurations",
+        "filePath": "projects/explainable-ml-tree-configurations.mdx",
+        "toc": []
+      },
+      "documentHash": "1761051669853",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/multiscale-built-environment-commute-emissions-xian.mdx": {
+      "document": {
+        "title": "Influences of Multi-scale Built Environments on Commuting Carbon Emissions — Case Study of Xi'an",
+        "date": "2022-06-01T00:00:00.000Z",
+        "endDate": "2023-05-01T00:00:00.000Z",
+        "role": "Participant / National College Student Innovation and Entrepreneurship Training Programme (Country-level)",
+        "mentors": "Prof. Xiaoyan Huang",
+        "excerpt": "Analysed how built environments around residences and workplaces impact commuting carbon emissions across income groups at community level in Xi'an.",
+        "image": "/images/projects/xian-commute-emissions-themed.svg",
+        "external": null,
+        "body": {
+          "raw": "\n- Explored multi-level impacts of built environments on travel behaviours and their environmental and social effects on residents.\n- Quantified community-level commuting carbon emissions and disparities across income groups.\n- Assessed the role of urban public services in migrants’ social integration at city and community scales.\n",
+          "code": "var Component=(()=>{var d=Object.create;var s=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),h=(e,n)=>{for(var i in n)s(e,i,{get:n[i],enumerable:!0})},r=(e,n,i,a)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let o of f(n))!v.call(e,o)&&o!==i&&s(e,o,{get:()=>n[o],enumerable:!(a=p(n,o))||a.enumerable});return e};var y=(e,n,i)=>(i=e!=null?d(g(e)):{},r(n||!e||!e.__esModule?s(i,\"default\",{value:e,enumerable:!0}):i,e)),b=e=>r(s({},\"__esModule\",{value:!0}),e);var c=x((X,l)=>{l.exports=_jsx_runtime});var j={};h(j,{default:()=>u,frontmatter:()=>C});var t=y(c()),C={title:\"Influences of Multi-scale Built Environments on Commuting Carbon Emissions \\u2014 Case Study of Xi'an\",date:\"2022-06-01\",endDate:\"2023-05-01\",role:\"Participant / National College Student Innovation and Entrepreneurship Training Programme (Country-level)\",mentors:\"Prof. Xiaoyan Huang\",excerpt:\"Analysed how built environments around residences and workplaces impact commuting carbon emissions across income groups at community level in Xi'an.\",image:\"/images/projects/xian-commute-emissions-themed.svg\",external:null};function m(e){let n={li:\"li\",ul:\"ul\",...e.components};return(0,t.jsxs)(n.ul,{children:[(0,t.jsx)(n.li,{children:\"Explored multi-level impacts of built environments on travel behaviours and their environmental and social effects on residents.\"}),(0,t.jsx)(n.li,{children:\"Quantified community-level commuting carbon emissions and disparities across income groups.\"}),(0,t.jsx)(n.li,{children:\"Assessed the role of urban public services in migrants\\u2019 social integration at city and community scales.\"})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(m,{...e})}):m(e)}return b(j);})();\n;return Component;"
+        },
+        "_id": "projects/multiscale-built-environment-commute-emissions-xian.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/multiscale-built-environment-commute-emissions-xian.mdx",
+          "sourceFileName": "multiscale-built-environment-commute-emissions-xian.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/multiscale-built-environment-commute-emissions-xian"
+        },
+        "type": "Project",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.23,
+          "time": 13800,
+          "words": 46
+        },
+        "slug": "multiscale-built-environment-commute-emissions-xian",
+        "path": "projects/multiscale-built-environment-commute-emissions-xian",
+        "filePath": "projects/multiscale-built-environment-commute-emissions-xian.mdx",
+        "toc": []
+      },
+      "documentHash": "1761051669920",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/post-covid-cities.mdx": {
+      "document": {
+        "title": "Post-COVID Cities — Understanding New Dynamics of Travel Behaviour and Activities",
+        "date": "2023-06-01T00:00:00.000Z",
+        "endDate": "2023-12-01T00:00:00.000Z",
+        "role": "Researcher",
+        "mentors": null,
+        "excerpt": "Investigated shifts in urban travel behaviours post-COVID by leveraging Twitter data to capture pre- and post-pandemic mobility trends.",
+        "image": "/images/projects/post-covid-cities-themed.svg",
+        "external": null,
+        "body": {
+          "raw": "\n- Developed a framework integrating SVM for data cleansing with LDA for topic modelling to extract travel patterns.\n- Uncovered changes—declining work/entertainment trips and rising healthcare mobility—and mapped spatial–temporal variations to inform urban planning.\n",
+          "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of g(t))!v.call(e,r)&&r!==n&&a(e,r,{get:()=>t[r],enumerable:!(o=u(t,r))||o.enumerable});return e};var D=(e,t,n)=>(n=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>s(a({},\"__esModule\",{value:!0}),e);var c=x((y,l)=>{l.exports=_jsx_runtime});var w={};f(w,{default:()=>m,frontmatter:()=>j});var i=D(c()),j={title:\"Post-COVID Cities \\u2014 Understanding New Dynamics of Travel Behaviour and Activities\",date:\"2023-06-01\",endDate:\"2023-12-01\",role:\"Researcher\",mentors:null,excerpt:\"Investigated shifts in urban travel behaviours post-COVID by leveraging Twitter data to capture pre- and post-pandemic mobility trends.\",image:\"/images/projects/post-covid-cities-themed.svg\",external:null};function d(e){let t={li:\"li\",ul:\"ul\",...e.components};return(0,i.jsxs)(t.ul,{children:[(0,i.jsx)(t.li,{children:\"Developed a framework integrating SVM for data cleansing with LDA for topic modelling to extract travel patterns.\"}),(0,i.jsx)(t.li,{children:\"Uncovered changes\\u2014declining work/entertainment trips and rising healthcare mobility\\u2014and mapped spatial\\u2013temporal variations to inform urban planning.\"})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,i.jsx)(t,{...e,children:(0,i.jsx)(d,{...e})}):d(e)}return b(w);})();\n;return Component;"
+        },
+        "_id": "projects/post-covid-cities.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/post-covid-cities.mdx",
+          "sourceFileName": "post-covid-cities.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/post-covid-cities"
+        },
+        "type": "Project",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.17,
+          "time": 10200,
+          "words": 34
+        },
+        "slug": "post-covid-cities",
+        "path": "projects/post-covid-cities",
+        "filePath": "projects/post-covid-cities.mdx",
+        "toc": []
+      },
+      "documentHash": "1761051669900",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "projects/spatial-llm-3d-scans.mdx": {
+      "document": {
+        "title": "Spatial LLM — Bridging the Gap Between Natural Language and 3D Scans",
+        "date": "2025-09-01T00:00:00.000Z",
+        "endDate": "2025-11-01T00:00:00.000Z",
+        "role": "Technical Manager / Synthesis Project",
+        "mentors": "Assoc. Prof. Liangliang Nan; Dr. Shayan Nikoohemat",
+        "excerpt": "A chatbot that maps natural language to spatial reasoning on indoor point clouds, integrating language understanding with 2D–3D matching, segmentation, and geometric queries.",
+        "image": "/images/projects/spatial-llm-themed.svg",
+        "external": null,
+        "body": {
+          "raw": "\n- Built a chatbot that converts free-form questions into intents and executable steps operating on indoor point clouds.\n- Integrated language understanding with 2D–3D matching, lightweight segmentation, and geometric queries to locate objects, infer relations, and extract spatial attributes.\n- Delivered concise answers with interactive views and auto-generated measurements for rapid exploration and repeatable data extraction.\n",
+          "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var p=Object.getPrototypeOf,x=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),D=(t,e)=>{for(var n in e)o(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of h(e))!x.call(t,i)&&i!==n&&o(t,i,{get:()=>e[i],enumerable:!(r=m(e,i))||r.enumerable});return t};var j=(t,e,n)=>(n=t!=null?u(p(t)):{},s(e||!t||!t.__esModule?o(n,\"default\",{value:t,enumerable:!0}):n,t)),w=t=>s(o({},\"__esModule\",{value:!0}),t);var c=f((L,l)=>{l.exports=_jsx_runtime});var _={};D(_,{default:()=>d,frontmatter:()=>b});var a=j(c()),b={title:\"Spatial LLM \\u2014 Bridging the Gap Between Natural Language and 3D Scans\",date:\"2025-09-01\",endDate:\"2025-11-01\",role:\"Technical Manager / Synthesis Project\",mentors:\"Assoc. Prof. Liangliang Nan; Dr. Shayan Nikoohemat\",excerpt:\"A chatbot that maps natural language to spatial reasoning on indoor point clouds, integrating language understanding with 2D\\u20133D matching, segmentation, and geometric queries.\",image:\"/images/projects/spatial-llm-themed.svg\",external:null};function g(t){let e={li:\"li\",ul:\"ul\",...t.components};return(0,a.jsxs)(e.ul,{children:[(0,a.jsx)(e.li,{children:\"Built a chatbot that converts free-form questions into intents and executable steps operating on indoor point clouds.\"}),(0,a.jsx)(e.li,{children:\"Integrated language understanding with 2D\\u20133D matching, lightweight segmentation, and geometric queries to locate objects, infer relations, and extract spatial attributes.\"}),(0,a.jsx)(e.li,{children:\"Delivered concise answers with interactive views and auto-generated measurements for rapid exploration and repeatable data extraction.\"})]})}function d(t={}){let{wrapper:e}=t.components||{};return e?(0,a.jsx)(e,{...t,children:(0,a.jsx)(g,{...t})}):g(t)}return w(_);})();\n;return Component;"
+        },
+        "_id": "projects/spatial-llm-3d-scans.mdx",
+        "_raw": {
+          "sourceFilePath": "projects/spatial-llm-3d-scans.mdx",
+          "sourceFileName": "spatial-llm-3d-scans.mdx",
+          "sourceFileDir": "projects",
+          "contentType": "mdx",
+          "flattenedPath": "projects/spatial-llm-3d-scans"
+        },
+        "type": "Project",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.28,
+          "time": 16800,
+          "words": 56
+        },
+        "slug": "spatial-llm-3d-scans",
+        "path": "projects/spatial-llm-3d-scans",
+        "filePath": "projects/spatial-llm-3d-scans.mdx",
+        "toc": []
+      },
+      "documentHash": "1761051669880",
+      "hasWarnings": false,
+      "documentTypeName": "Project"
+    },
+    "gallery/2024-25/board-transition-2024.mdx": {
+      "document": {
+        "title": "Board Transition",
+        "date": "2024-07-05T00:00:00.000Z",
+        "image": "/images/gallery/2024-25/board.jpeg",
+        "link": "https://www.instagram.com/p/C9CdosfNHAB/",
+        "body": {
+          "raw": "\nA month ago the 10th Board took over GEOS! We are very excited for the upcoming year and\nare planning some fun and educational activities to connect with your fellow students and companies.\nSee you around! 🌎🌍🌏🌍🌎\n#GEOS, #Geomatics #BKtudelft #TUDelft @geomaticsdelft @bk.tudelft\n",
+          "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var f=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,h=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),w=(t,e)=>{for(var n in e)a(t,n,{get:e[n],enumerable:!0})},c=(t,e,n,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let o of p(e))!h.call(t,o)&&o!==n&&a(t,o,{get:()=>e[o],enumerable:!(i=f(e,o))||i.enumerable});return t};var y=(t,e,n)=>(n=t!=null?l(g(t)):{},c(e||!t||!t.__esModule?a(n,\"default\",{value:t,enumerable:!0}):n,t)),_=t=>c(a({},\"__esModule\",{value:!0}),t);var d=x((k,s)=>{s.exports=_jsx_runtime});var B={};w(B,{default:()=>u,frontmatter:()=>j});var r=y(d()),j={title:\"Board Transition\",date:\"2024-07-05\",image:\"/images/gallery/2024-25/board.jpeg\",link:\"https://www.instagram.com/p/C9CdosfNHAB/\"};function m(t){let e={p:\"p\",...t.components};return(0,r.jsx)(e.p,{children:\"A month ago the 10th Board took over GEOS! We are very excited for the upcoming year and are planning some fun and educational activities to connect with your fellow students and companies. See you around! \\u{1F30E}\\u{1F30D}\\u{1F30F}\\u{1F30D}\\u{1F30E} #GEOS, #Geomatics #BKtudelft #TUDelft @geomaticsdelft @bk.tudelft\"})}function u(t={}){let{wrapper:e}=t.components||{};return e?(0,r.jsx)(e,{...t,children:(0,r.jsx)(m,{...t})}):m(t)}return _(B);})();\n;return Component;"
+        },
+        "_id": "gallery/2024-25/board-transition-2024.mdx",
+        "_raw": {
+          "sourceFilePath": "gallery/2024-25/board-transition-2024.mdx",
+          "sourceFileName": "board-transition-2024.mdx",
+          "sourceFileDir": "gallery/2024-25",
+          "contentType": "mdx",
+          "flattenedPath": "gallery/2024-25/board-transition-2024"
+        },
+        "type": "Gallery",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.215,
+          "time": 12900,
+          "words": 43
+        },
+        "slug": "2024-25/board-transition-2024",
+        "path": "gallery/2024-25/board-transition-2024",
+        "filePath": "gallery/2024-25/board-transition-2024.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648792",
+      "hasWarnings": false,
+      "documentTypeName": "Gallery"
+    },
+    "gallery/2024-25/cgi-netherlands-tour.mdx": {
+      "document": {
+        "title": "CGI Netherlands",
+        "date": "2024-09-30T00:00:00.000Z",
+        "image": "/images/gallery/2024-25/CGI_tour.jpeg",
+        "link": "https://www.instagram.com/p/DF8QogEty3Q/",
+        "body": {
+          "raw": "\nThis Monday, we had an amazing day at CGI! 🚀 First, we got a tour of the building, then a deep dive into what CGI does—their expertise, global offices, and how they're shaping the future of technology and consulting.\n\nStudents gained firsthand insights into career opportunities in the tech consulting world.\n",
+          "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),w=(t,e)=>{for(var o in e)i(t,o,{get:e[o],enumerable:!0})},s=(t,e,o,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!f.call(t,a)&&a!==o&&i(t,a,{get:()=>e[a],enumerable:!(r=u(e,a))||r.enumerable});return t};var _=(t,e,o)=>(o=t!=null?l(m(t)):{},s(e||!t||!t.__esModule?i(o,\"default\",{value:t,enumerable:!0}):o,t)),y=t=>s(i({},\"__esModule\",{value:!0}),t);var h=x((G,d)=>{d.exports=_jsx_runtime});var C={};w(C,{default:()=>g,frontmatter:()=>j});var n=_(h()),j={title:\"CGI Netherlands\",date:\"2024-09-30\",image:\"/images/gallery/2024-25/CGI_tour.jpeg\",link:\"https://www.instagram.com/p/DF8QogEty3Q/\"};function c(t){let e={p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"This Monday, we had an amazing day at CGI! \\u{1F680} First, we got a tour of the building, then a deep dive into what CGI does\\u2014their expertise, global offices, and how they're shaping the future of technology and consulting.\"}),(0,n.jsx)(e.p,{children:\"Students gained firsthand insights into career opportunities in the tech consulting world.\"})]})}function g(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(c,{...t})}):c(t)}return y(C);})();\n;return Component;"
+        },
+        "_id": "gallery/2024-25/cgi-netherlands-tour.mdx",
+        "_raw": {
+          "sourceFilePath": "gallery/2024-25/cgi-netherlands-tour.mdx",
+          "sourceFileName": "cgi-netherlands-tour.mdx",
+          "sourceFileDir": "gallery/2024-25",
+          "contentType": "mdx",
+          "flattenedPath": "gallery/2024-25/cgi-netherlands-tour"
+        },
+        "type": "Gallery",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.255,
+          "time": 15300,
+          "words": 51
+        },
+        "slug": "2024-25/cgi-netherlands-tour",
+        "path": "gallery/2024-25/cgi-netherlands-tour",
+        "filePath": "gallery/2024-25/cgi-netherlands-tour.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648792",
+      "hasWarnings": false,
+      "documentTypeName": "Gallery"
+    },
+    "gallery/2024-25/enginear-career-talk.mdx": {
+      "document": {
+        "title": "Enginear Career Talk",
+        "date": "2024-10-08T00:00:00.000Z",
+        "image": "/images/gallery/2024-25/lunch_1.jpeg",
+        "link": "https://www.instagram.com/p/DG5M66SsKvH/",
+        "body": {
+          "raw": "\nGEOS first lunch lecture of the year! 🌟\n\nEnginear represented by Laurie told us everything about kickstarting our careers as young engineers! 📐💼\n\nFrom resume tips to networking strategies, it was an invaluable session for students preparing to enter the professional world.\n",
+          "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var m=Object.getOwnPropertyDescriptor;var d=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),_=(e,t)=>{for(var r in t)a(e,r,{get:t[r],enumerable:!0})},i=(e,t,r,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let s of d(t))!f.call(e,s)&&s!==r&&a(e,s,{get:()=>t[s],enumerable:!(o=m(t,s))||o.enumerable});return e};var w=(e,t,r)=>(r=e!=null?p(h(e)):{},i(t||!e||!e.__esModule?a(r,\"default\",{value:e,enumerable:!0}):r,e)),j=e=>i(a({},\"__esModule\",{value:!0}),e);var l=x((b,c)=>{c.exports=_jsx_runtime});var k={};_(k,{default:()=>g,frontmatter:()=>y});var n=w(l()),y={title:\"Enginear Career Talk\",date:\"2024-10-08\",image:\"/images/gallery/2024-25/lunch_1.jpeg\",link:\"https://www.instagram.com/p/DG5M66SsKvH/\"};function u(e){let t={p:\"p\",...e.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(t.p,{children:\"GEOS first lunch lecture of the year! \\u{1F31F}\"}),(0,n.jsx)(t.p,{children:\"Enginear represented by Laurie told us everything about kickstarting our careers as young engineers! \\u{1F4D0}\\u{1F4BC}\"}),(0,n.jsx)(t.p,{children:\"From resume tips to networking strategies, it was an invaluable session for students preparing to enter the professional world.\"})]})}function g(e={}){let{wrapper:t}=e.components||{};return t?(0,n.jsx)(t,{...e,children:(0,n.jsx)(u,{...e})}):u(e)}return j(k);})();\n;return Component;"
+        },
+        "_id": "gallery/2024-25/enginear-career-talk.mdx",
+        "_raw": {
+          "sourceFilePath": "gallery/2024-25/enginear-career-talk.mdx",
+          "sourceFileName": "enginear-career-talk.mdx",
+          "sourceFileDir": "gallery/2024-25",
+          "contentType": "mdx",
+          "flattenedPath": "gallery/2024-25/enginear-career-talk"
+        },
+        "type": "Gallery",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.21,
+          "time": 12600,
+          "words": 42
+        },
+        "slug": "2024-25/enginear-career-talk",
+        "path": "gallery/2024-25/enginear-career-talk",
+        "filePath": "gallery/2024-25/enginear-career-talk.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648792",
+      "hasWarnings": false,
+      "documentTypeName": "Gallery"
+    },
+    "gallery/2024-25/intergeo-stuttgart-2024.mdx": {
+      "document": {
+        "title": "INTERGEO Stuttgart",
+        "date": "2024-09-24T00:00:00.000Z",
+        "image": "/images/gallery/2024-25/intergeo.jpeg",
+        "link": "https://www.instagram.com/p/DAZPs1ltUxU/",
+        "body": {
+          "raw": "\nAaand we are back!\n\nFrom the 24th till the 26th of September GEOS brought a group of 34 Geomatics students to the city of Stuttgart for our annual trip to INTERGEO.\nThis world-leading trade fair for geodesy, geoinformation, and land management provided our students with incredible networking opportunities and insights into the latest industry innovations.\n",
+          "code": "var Component=(()=>{var l=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),w=(t,e)=>{for(var o in e)a(t,o,{get:e[o],enumerable:!0})},s=(t,e,o,i)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of p(e))!f.call(t,r)&&r!==o&&a(t,r,{get:()=>e[r],enumerable:!(i=u(e,r))||i.enumerable});return t};var _=(t,e,o)=>(o=t!=null?l(h(t)):{},s(e||!t||!t.__esModule?a(o,\"default\",{value:t,enumerable:!0}):o,t)),j=t=>s(a({},\"__esModule\",{value:!0}),t);var m=x((G,d)=>{d.exports=_jsx_runtime});var E={};w(E,{default:()=>g,frontmatter:()=>y});var n=_(m()),y={title:\"INTERGEO Stuttgart\",date:\"2024-09-24\",image:\"/images/gallery/2024-25/intergeo.jpeg\",link:\"https://www.instagram.com/p/DAZPs1ltUxU/\"};function c(t){let e={p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"Aaand we are back!\"}),(0,n.jsx)(e.p,{children:\"From the 24th till the 26th of September GEOS brought a group of 34 Geomatics students to the city of Stuttgart for our annual trip to INTERGEO. This world-leading trade fair for geodesy, geoinformation, and land management provided our students with incredible networking opportunities and insights into the latest industry innovations.\"})]})}function g(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(c,{...t})}):c(t)}return j(E);})();\n;return Component;"
+        },
+        "_id": "gallery/2024-25/intergeo-stuttgart-2024.mdx",
+        "_raw": {
+          "sourceFilePath": "gallery/2024-25/intergeo-stuttgart-2024.mdx",
+          "sourceFileName": "intergeo-stuttgart-2024.mdx",
+          "sourceFileDir": "gallery/2024-25",
+          "contentType": "mdx",
+          "flattenedPath": "gallery/2024-25/intergeo-stuttgart-2024"
+        },
+        "type": "Gallery",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.275,
+          "time": 16500,
+          "words": 55
+        },
+        "slug": "2024-25/intergeo-stuttgart-2024",
+        "path": "gallery/2024-25/intergeo-stuttgart-2024",
+        "filePath": "gallery/2024-25/intergeo-stuttgart-2024.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648792",
+      "hasWarnings": false,
+      "documentTypeName": "Gallery"
+    },
+    "gallery/2024-25/international-dinner-2024.mdx": {
+      "document": {
+        "title": "International Dinner",
+        "date": "2024-09-15T00:00:00.000Z",
+        "image": "/images/gallery/2024-25/dinner.jpeg",
+        "link": "https://www.instagram.com/p/DEE50dfNXHX/",
+        "body": {
+          "raw": "\n🌎🌏🌍 INTERNATIONAL DINNER 🌍🌏🌎\n\nTwo weeks ago we asked you to showcase your culture by bringing a traditional dish from your home country.\nThe evening was a beautiful celebration of our diverse GEOS community, with flavors from around the world bringing us all together.\n",
+          "code": "var Component=(()=>{var d=Object.create;var a=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var h=Object.getOwnPropertyNames;var f=Object.getPrototypeOf,w=Object.prototype.hasOwnProperty;var p=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),x=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},s=(e,n,o,i)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of h(n))!w.call(e,r)&&r!==o&&a(e,r,{get:()=>n[r],enumerable:!(i=g(n,r))||i.enumerable});return e};var y=(e,n,o)=>(o=e!=null?d(f(e)):{},s(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),_=e=>s(a({},\"__esModule\",{value:!0}),e);var u=p((D,c)=>{c.exports=_jsx_runtime});var N={};x(N,{default:()=>m,frontmatter:()=>j});var t=y(u()),j={title:\"International Dinner\",date:\"2024-09-15\",image:\"/images/gallery/2024-25/dinner.jpeg\",link:\"https://www.instagram.com/p/DEE50dfNXHX/\"};function l(e){let n={p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.p,{children:\"\\u{1F30E}\\u{1F30F}\\u{1F30D} INTERNATIONAL DINNER \\u{1F30D}\\u{1F30F}\\u{1F30E}\"}),(0,t.jsx)(n.p,{children:\"Two weeks ago we asked you to showcase your culture by bringing a traditional dish from your home country. The evening was a beautiful celebration of our diverse GEOS community, with flavors from around the world bringing us all together.\"})]})}function m(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(l,{...e})}):l(e)}return _(N);})();\n;return Component;"
+        },
+        "_id": "gallery/2024-25/international-dinner-2024.mdx",
+        "_raw": {
+          "sourceFilePath": "gallery/2024-25/international-dinner-2024.mdx",
+          "sourceFileName": "international-dinner-2024.mdx",
+          "sourceFileDir": "gallery/2024-25",
+          "contentType": "mdx",
+          "flattenedPath": "gallery/2024-25/international-dinner-2024"
+        },
+        "type": "Gallery",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.22,
+          "time": 13200,
+          "words": 44
+        },
+        "slug": "2024-25/international-dinner-2024",
+        "path": "gallery/2024-25/international-dinner-2024",
+        "filePath": "gallery/2024-25/international-dinner-2024.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648792",
+      "hasWarnings": false,
+      "documentTypeName": "Gallery"
+    },
+    "gallery/2024-25/readar-lunch-lecture.mdx": {
+      "document": {
+        "title": "READAR Lunch Lecture",
+        "date": "2024-11-15T00:00:00.000Z",
+        "image": "/images/gallery/2024-25/lunch_2.jpeg",
+        "link": "https://www.instagram.com/p/DHTV_OQNEWj/",
+        "body": {
+          "raw": "\nLast Friday GEOS had the pleasure of hosting Sven Briels, founder of READAR, for an inspiring lunch lecture! 🚀✨\nSven shared his journey from the Geomatics master's program to creating innovative solutions in the industry, giving us valuable insights into entrepreneurship in our field.\n",
+          "code": "var Component=(()=>{var m=Object.create;var i=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var d=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),_=(e,n)=>{for(var t in n)i(e,t,{get:n[t],enumerable:!0})},a=(e,n,t,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let r of g(n))!f.call(e,r)&&r!==t&&i(e,r,{get:()=>n[r],enumerable:!(s=p(n,r))||s.enumerable});return e};var j=(e,n,t)=>(t=e!=null?m(d(e)):{},a(n||!e||!e.__esModule?i(t,\"default\",{value:e,enumerable:!0}):t,e)),v=e=>a(i({},\"__esModule\",{value:!0}),e);var c=x((A,u)=>{u.exports=_jsx_runtime});var D={};_(D,{default:()=>h,frontmatter:()=>y});var o=j(c()),y={title:\"READAR Lunch Lecture\",date:\"2024-11-15\",image:\"/images/gallery/2024-25/lunch_2.jpeg\",link:\"https://www.instagram.com/p/DHTV_OQNEWj/\"};function l(e){let n={p:\"p\",...e.components};return(0,o.jsx)(n.p,{children:\"Last Friday GEOS had the pleasure of hosting Sven Briels, founder of READAR, for an inspiring lunch lecture! \\u{1F680}\\u2728 Sven shared his journey from the Geomatics master's program to creating innovative solutions in the industry, giving us valuable insights into entrepreneurship in our field.\"})}function h(e={}){let{wrapper:n}=e.components||{};return n?(0,o.jsx)(n,{...e,children:(0,o.jsx)(l,{...e})}):l(e)}return v(D);})();\n;return Component;"
+        },
+        "_id": "gallery/2024-25/readar-lunch-lecture.mdx",
+        "_raw": {
+          "sourceFilePath": "gallery/2024-25/readar-lunch-lecture.mdx",
+          "sourceFileName": "readar-lunch-lecture.mdx",
+          "sourceFileDir": "gallery/2024-25",
+          "contentType": "mdx",
+          "flattenedPath": "gallery/2024-25/readar-lunch-lecture"
+        },
+        "type": "Gallery",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.22,
+          "time": 13200,
+          "words": 44
+        },
+        "slug": "2024-25/readar-lunch-lecture",
+        "path": "gallery/2024-25/readar-lunch-lecture",
+        "filePath": "gallery/2024-25/readar-lunch-lecture.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648792",
+      "hasWarnings": false,
+      "documentTypeName": "Gallery"
+    },
+    "gallery/2024-25/year-end-bbq-2024.mdx": {
+      "document": {
+        "title": "Year-End Celebrations",
+        "date": "2024-06-15T00:00:00.000Z",
+        "image": "/images/gallery/2024-25/lake_bbq.jpeg",
+        "link": "https://www.instagram.com/p/C_iuFuWtP7e/",
+        "body": {
+          "raw": "\nThe academic year has officially started again and Board X hopes you are enjoying it so far! 🎆🎇\nWe ended last year with a lovely bbq at the lake 🍖, creating the perfect atmosphere for students to unwind and connect before the summer break.\n",
+          "code": "var Component=(()=>{var u=Object.create;var o=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var f=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var y=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),b=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,i)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let a of f(t))!g.call(e,a)&&a!==n&&o(e,a,{get:()=>t[a],enumerable:!(i=p(t,a))||i.enumerable});return e};var x=(e,t,n)=>(n=e!=null?u(h(e)):{},s(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),_=e=>s(o({},\"__esModule\",{value:!0}),e);var d=y((C,c)=>{c.exports=_jsx_runtime});var j={};b(j,{default:()=>m,frontmatter:()=>w});var r=x(d()),w={title:\"Year-End Celebrations\",date:\"2024-06-15\",image:\"/images/gallery/2024-25/lake_bbq.jpeg\",link:\"https://www.instagram.com/p/C_iuFuWtP7e/\"};function l(e){let t={p:\"p\",...e.components};return(0,r.jsx)(t.p,{children:\"The academic year has officially started again and Board X hopes you are enjoying it so far! \\u{1F386}\\u{1F387} We ended last year with a lovely bbq at the lake \\u{1F356}, creating the perfect atmosphere for students to unwind and connect before the summer break.\"})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,r.jsx)(t,{...e,children:(0,r.jsx)(l,{...e})}):l(e)}return _(j);})();\n;return Component;"
+        },
+        "_id": "gallery/2024-25/year-end-bbq-2024.mdx",
+        "_raw": {
+          "sourceFilePath": "gallery/2024-25/year-end-bbq-2024.mdx",
+          "sourceFileName": "year-end-bbq-2024.mdx",
+          "sourceFileDir": "gallery/2024-25",
+          "contentType": "mdx",
+          "flattenedPath": "gallery/2024-25/year-end-bbq-2024"
+        },
+        "type": "Gallery",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.22,
+          "time": 13200,
+          "words": 44
+        },
+        "slug": "2024-25/year-end-bbq-2024",
+        "path": "gallery/2024-25/year-end-bbq-2024",
+        "filePath": "gallery/2024-25/year-end-bbq-2024.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648792",
+      "hasWarnings": false,
+      "documentTypeName": "Gallery"
+    },
+    "gallery/2025-26/board-transition-2025.mdx": {
+      "document": {
+        "title": "Board Transition",
+        "date": "2025-07-01T00:00:00.000Z",
+        "image": "/images/gallery/2025-26/board.jpeg",
+        "link": "https://www.instagram.com/p/DLiMzUCzZiy/",
+        "body": {
+          "raw": "\nOne month ago, the 11th Board officially stepped in at GEOS! 🎉🎉🎉\nWe're brimming with ideas for the year ahead—think engaging socials, guest lectures, and dynamic company meet-ups that bring students and companies together.\nStay tuned and join the adventure! 🌍🧭🌎🛰️🌏\n\n#GEOS #Geomatics #BKtudelft #TUDelft\n",
+          "code": "var Component=(()=>{var h=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),y=(t,e)=>{for(var a in e)o(t,a,{get:e[a],enumerable:!0})},s=(t,e,a,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let i of p(e))!f.call(t,i)&&i!==a&&o(t,i,{get:()=>e[i],enumerable:!(r=l(e,i))||r.enumerable});return t};var j=(t,e,a)=>(a=t!=null?h(u(t)):{},s(e||!t||!t.__esModule?o(a,\"default\",{value:t,enumerable:!0}):a,t)),_=t=>s(o({},\"__esModule\",{value:!0}),t);var d=x((b,c)=>{c.exports=_jsx_runtime});var D={};y(D,{default:()=>g,frontmatter:()=>w});var n=j(d()),w={title:\"Board Transition\",date:\"2025-07-01\",image:\"/images/gallery/2025-26/board.jpeg\",link:\"https://www.instagram.com/p/DLiMzUCzZiy/\"};function m(t){let e={p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"One month ago, the 11th Board officially stepped in at GEOS! \\u{1F389}\\u{1F389}\\u{1F389} We're brimming with ideas for the year ahead\\u2014think engaging socials, guest lectures, and dynamic company meet-ups that bring students and companies together. Stay tuned and join the adventure! \\u{1F30D}\\u{1F9ED}\\u{1F30E}\\u{1F6F0}\\uFE0F\\u{1F30F}\"}),(0,n.jsx)(e.p,{children:\"#GEOS #Geomatics #BKtudelft #TUDelft\"})]})}function g(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(m,{...t})}):m(t)}return _(D);})();\n;return Component;"
+        },
+        "_id": "gallery/2025-26/board-transition-2025.mdx",
+        "_raw": {
+          "sourceFilePath": "gallery/2025-26/board-transition-2025.mdx",
+          "sourceFileName": "board-transition-2025.mdx",
+          "sourceFileDir": "gallery/2025-26",
+          "contentType": "mdx",
+          "flattenedPath": "gallery/2025-26/board-transition-2025"
+        },
+        "type": "Gallery",
+        "readingTime": {
+          "text": "1 min read",
+          "minutes": 0.225,
+          "time": 13500,
+          "words": 45
+        },
+        "slug": "2025-26/board-transition-2025",
+        "path": "gallery/2025-26/board-transition-2025",
+        "filePath": "gallery/2025-26/board-transition-2025.mdx",
+        "toc": []
+      },
+      "documentHash": "1754130648792",
+      "hasWarnings": false,
+      "documentTypeName": "Gallery"
+    }
+  }
+}

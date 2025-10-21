@@ -1,0 +1,67 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Build site to generate contentlayer",
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Lint workspace",
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"lint"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$eslint-stylish"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Rebuild to ensure pages use latest contentlayer exports",
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Rebuild after contentlayer fix",
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"build"
+			],
+			"isBackground": false,
+			"problemMatcher": [
+				"$tsc"
+			],
+			"group": "build"
+		},
+		{
+			"label": "Start dev server",
+			"type": "shell",
+			"command": "yarn",
+			"args": [
+				"dev"
+			],
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}

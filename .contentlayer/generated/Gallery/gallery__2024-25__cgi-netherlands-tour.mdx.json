@@ -1,0 +1,29 @@
+{
+  "title": "CGI Netherlands",
+  "date": "2024-09-30T00:00:00.000Z",
+  "image": "/images/gallery/2024-25/CGI_tour.jpeg",
+  "link": "https://www.instagram.com/p/DF8QogEty3Q/",
+  "body": {
+    "raw": "\nThis Monday, we had an amazing day at CGI! 🚀 First, we got a tour of the building, then a deep dive into what CGI does—their expertise, global offices, and how they're shaping the future of technology and consulting.\n\nStudents gained firsthand insights into career opportunities in the tech consulting world.\n",
+    "code": "var Component=(()=>{var l=Object.create;var i=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var m=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var x=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),w=(t,e)=>{for(var o in e)i(t,o,{get:e[o],enumerable:!0})},s=(t,e,o,r)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of p(e))!f.call(t,a)&&a!==o&&i(t,a,{get:()=>e[a],enumerable:!(r=u(e,a))||r.enumerable});return t};var _=(t,e,o)=>(o=t!=null?l(m(t)):{},s(e||!t||!t.__esModule?i(o,\"default\",{value:t,enumerable:!0}):o,t)),y=t=>s(i({},\"__esModule\",{value:!0}),t);var h=x((G,d)=>{d.exports=_jsx_runtime});var C={};w(C,{default:()=>g,frontmatter:()=>j});var n=_(h()),j={title:\"CGI Netherlands\",date:\"2024-09-30\",image:\"/images/gallery/2024-25/CGI_tour.jpeg\",link:\"https://www.instagram.com/p/DF8QogEty3Q/\"};function c(t){let e={p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.p,{children:\"This Monday, we had an amazing day at CGI! \\u{1F680} First, we got a tour of the building, then a deep dive into what CGI does\\u2014their expertise, global offices, and how they're shaping the future of technology and consulting.\"}),(0,n.jsx)(e.p,{children:\"Students gained firsthand insights into career opportunities in the tech consulting world.\"})]})}function g(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(c,{...t})}):c(t)}return y(C);})();\n;return Component;"
+  },
+  "_id": "gallery/2024-25/cgi-netherlands-tour.mdx",
+  "_raw": {
+    "sourceFilePath": "gallery/2024-25/cgi-netherlands-tour.mdx",
+    "sourceFileName": "cgi-netherlands-tour.mdx",
+    "sourceFileDir": "gallery/2024-25",
+    "contentType": "mdx",
+    "flattenedPath": "gallery/2024-25/cgi-netherlands-tour"
+  },
+  "type": "Gallery",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.255,
+    "time": 15300,
+    "words": 51
+  },
+  "slug": "2024-25/cgi-netherlands-tour",
+  "path": "gallery/2024-25/cgi-netherlands-tour",
+  "filePath": "gallery/2024-25/cgi-netherlands-tour.mdx",
+  "toc": []
+}

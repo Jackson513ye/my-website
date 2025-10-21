@@ -111,7 +111,7 @@ export const Partner = defineDocumentType(() => ({
 
 export const Career = defineDocumentType(() => ({
   name: 'Career',
-  filePathPattern: 'careers/**/*.mdx',
+  filePathPattern: 'careers/**/*.{md,mdx}',
   contentType: 'mdx',
   fields: {
     title: {
@@ -146,9 +146,28 @@ export const Career = defineDocumentType(() => ({
   computedFields,
 }))
 
+export const Project = defineDocumentType(() => ({
+  name: 'Project',
+  filePathPattern: 'projects/**/*.mdx',
+  contentType: 'mdx',
+  fields: {
+    title: { type: 'string', required: true },
+    date: { type: 'date', required: true },
+    endDate: { type: 'date', required: false },
+    role: { type: 'string', required: false },
+    mentors: { type: 'string', required: false },
+    excerpt: { type: 'string', required: false },
+    image: { type: 'string', required: false },
+    external: { type: 'string', required: false },
+  },
+  computedFields: {
+    ...computedFields,
+  },
+}))
+
 export default makeSource({
   contentDirPath: 'data',
-  documentTypes: [Event, Gallery, Partner, Career],
+  documentTypes: [Event, Gallery, Partner, Career, Project],
   mdx: {
     cwd: process.cwd(),
     remarkPlugins: [remarkExtractFrontmatter, remarkGfm, remarkCodeTitles, remarkMath, remarkImgToJsx, remarkAlert],

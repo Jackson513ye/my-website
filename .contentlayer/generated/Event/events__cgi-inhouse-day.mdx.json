@@ -1,0 +1,32 @@
+{
+  "title": "CGI Inhouse day",
+  "date": "2025-02-10T00:00:00.000Z",
+  "time": "2:30 PM – 5:05 PM",
+  "eventType": "single",
+  "location": "CGI Nederland | Rotterdam",
+  "excerpt": "Join GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day to explore career opportunities and company culture.",
+  "image": "/images/events/CGI_event.jpg",
+  "body": {
+    "raw": "\nJoin GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day! This is a fantastic opportunity to get an inside look at one of the leading IT consulting companies, explore their work environment, meet professionals, and learn about potential career paths in the tech industry.\n\nCGI is a global leader in IT and business consulting services, and this visit will give you valuable insights into how technology solutions are developed and implemented for various industries. Don't miss this chance to network with CGI professionals and discover internship and job opportunities that could shape your future career.\n\nMore details and signup information will be provided soon. Stay tuned!\n",
+    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var v=Object.getPrototypeOf,g=Object.prototype.hasOwnProperty;var f=(e,n)=>()=>(n||e((n={exports:{}}).exports,n),n.exports),x=(e,n)=>{for(var o in n)a(e,o,{get:n[o],enumerable:!0})},r=(e,n,o,s)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of m(n))!g.call(e,i)&&i!==o&&a(e,i,{get:()=>n[i],enumerable:!(s=h(n,i))||s.enumerable});return e};var y=(e,n,o)=>(o=e!=null?p(v(e)):{},r(n||!e||!e.__esModule?a(o,\"default\",{value:e,enumerable:!0}):o,e)),I=e=>r(a({},\"__esModule\",{value:!0}),e);var l=f((j,d)=>{d.exports=_jsx_runtime});var G={};x(G,{default:()=>u,frontmatter:()=>C});var t=y(l()),C={title:\"CGI Inhouse day\",date:\"2025-02-10\",time:\"2:30 PM \\u2013 5:05 PM\",eventType:\"single\",location:\"CGI Nederland | Rotterdam\",excerpt:\"Join GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day to explore career opportunities and company culture.\",image:\"/images/events/CGI_event.jpg\"};function c(e){let n={p:\"p\",...e.components};return(0,t.jsxs)(t.Fragment,{children:[(0,t.jsx)(n.p,{children:\"Join GEOS and visit CGI Nederland in Rotterdam for an exclusive inhouse day! This is a fantastic opportunity to get an inside look at one of the leading IT consulting companies, explore their work environment, meet professionals, and learn about potential career paths in the tech industry.\"}),(0,t.jsx)(n.p,{children:\"CGI is a global leader in IT and business consulting services, and this visit will give you valuable insights into how technology solutions are developed and implemented for various industries. Don't miss this chance to network with CGI professionals and discover internship and job opportunities that could shape your future career.\"}),(0,t.jsx)(n.p,{children:\"More details and signup information will be provided soon. Stay tuned!\"})]})}function u(e={}){let{wrapper:n}=e.components||{};return n?(0,t.jsx)(n,{...e,children:(0,t.jsx)(c,{...e})}):c(e)}return I(G);})();\n;return Component;"
+  },
+  "_id": "events/cgi-inhouse-day.mdx",
+  "_raw": {
+    "sourceFilePath": "events/cgi-inhouse-day.mdx",
+    "sourceFileName": "cgi-inhouse-day.mdx",
+    "sourceFileDir": "events",
+    "contentType": "mdx",
+    "flattenedPath": "events/cgi-inhouse-day"
+  },
+  "type": "Event",
+  "readingTime": {
+    "text": "1 min read",
+    "minutes": 0.545,
+    "time": 32700,
+    "words": 109
+  },
+  "slug": "cgi-inhouse-day",
+  "path": "events/cgi-inhouse-day",
+  "filePath": "events/cgi-inhouse-day.mdx",
+  "toc": []
+}
