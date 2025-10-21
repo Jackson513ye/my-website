@@ -41,9 +41,10 @@ export default function ProjectsPage() {
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-100">
                   {project.title}
                 </h3>
-                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">
-                  {[project.role, project.mentors].filter(Boolean).join(' · ')}
-                </p>
+                <p className="mt-1 text-sm font-medium text-gray-900 dark:text-gray-100">{project.role}</p>
+                {project.mentors && (
+                  <p className="mt-0.5 text-xs text-gray-500 dark:text-gray-400">Mentor: {project.mentors}</p>
+                )}
                 <p className="mt-1 text-xs text-gray-400">
                   {format(new Date(project.date), 'MMM yyyy')}
                   {project.endDate ? ` – ${format(new Date(project.endDate), 'MMM yyyy')}` : ''}
