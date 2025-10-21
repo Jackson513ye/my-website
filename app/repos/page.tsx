@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import type { ReactNode } from 'react'
 import Card from '@/components/Card'
 import { format } from 'date-fns'
 
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
 
 type RepoDef = {
   title: string
-  description: string
+  description: ReactNode
   href: string
   imgSrc: string
   fullName: string // owner/repo
@@ -19,7 +20,7 @@ const repos: RepoDef[] = [
   {
     title: 'LM2PCG',
     description:
-      'Language Model to Procedural Content Generation — experiments connecting LLMs with procedural generation workflows.',
+      'A compact C++17 pipeline for indoor point-cloud processing with PCL (and optional CGAL). Clusters objects, computes upright OBBs, preserves colors, reconstructs meshes, and exports standardized results. Includes standalone tools (pcg_room, pcg_reconstruct, pcg_volume, pcg_area, pcg_color, pcg_bbox) and a Python AI API that orchestrates operations with structured JSON I/O.',
     href: 'https://github.com/Jackson513ye/LM2PCG',
     imgSrc: '/images/repos/lm2pcg.svg',
     fullName: 'Jackson513ye/LM2PCG',
@@ -27,7 +28,7 @@ const repos: RepoDef[] = [
   {
     title: 'MeTreec',
     description:
-      'Measurement + Tree + EC — a toolkit around tree measurement/estimation and environmental computation.',
+      'An end-to-end single-tree point cloud pipeline: AdTree-based 3D reconstruction, CGAL hole filling, skeleton/leaf filtering, and automatic metrics (height, DBH, crown radius/depth, volume/area). C++17/CMake with modular components and per-tree JSON plus batch CSV outputs.',
     href: 'https://github.com/Jackson513ye/MeTreec',
     imgSrc: '/images/repos/metreec.svg',
     fullName: 'Jackson513ye/MeTreec',
@@ -43,11 +44,12 @@ async function fetchRepoMeta(fullName: string) {
       // Cache for 1 hour, but update in background when revalidated
       next: { revalidate: 3600 },
     })
-    if (!res.ok) return { language: null as string | null, updated_at: null as string | null }
-    const json = (await res.json()) as { language: string | null; updated_at: string | null }
-    return { language: json.language, updated_at: json.updated_at }
+    if (!res.ok)
+      return { language: null as string | null, updated_at: null as string | null, stargazers_count: null as number | null }
+    const json = (await res.json()) as { language: string | null; updated_at: string | null; stargazers_count: number | null }
+    return { language: json.language, updated_at: json.updated_at, stargazers_count: json.stargazers_count }
   } catch (e) {
-    return { language: null as string | null, updated_at: null as string | null }
+    return { language: null as string | null, updated_at: null as string | null, stargazers_count: null as number | null }
   }
 }
 
@@ -57,7 +59,21 @@ export default async function ReposPage() {
       const meta = await fetchRepoMeta(r.fullName)
       const updated = meta.updated_at ? format(new Date(meta.updated_at), 'MMM d, yyyy') : '—'
       const language = meta.language || '—'
-      const description = `${r.description} · Language: ${language} · Updated: ${updated}`
+      const stars = typeof meta.stargazers_count === 'number' ? meta.stargazers_count : null
+      const description = (
+        <div>
+          <p>{r.description}</p>
+          <p>
+            <span className="font-medium text-gray-700 dark:text-gray-300">Language:</span> {language}
+          </p>
+          <p>
+            <span className="font-medium text-gray-700 dark:text-gray-300">Updated:</span> {updated}
+          </p>
+          <p>
+            <span className="font-medium text-gray-700 dark:text-gray-300">Stars:</span> {stars !== null ? stars : '—'}
+          </p>
+        </div>
+      )
       return { ...r, description }
     })
   )
