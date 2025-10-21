@@ -28,7 +28,7 @@ export default function HomePage() {
       {/* Hero Banner Section */}
       <div className="relative overflow-hidden rounded-lg">
         <div className="absolute inset-0">
-          <Image src="/images/home/banner.jpg" alt="GEOS Banner" fill className="object-cover object-bottom" priority />
+          <Image src="/images/home/pointcloud.jpg" alt="GEOS Banner" fill className="object-cover object-bottom" priority />
           <div className="bg-opacity-40 absolute inset-0"></div>
         </div>
         <div className="relative container mx-auto px-4 py-5">

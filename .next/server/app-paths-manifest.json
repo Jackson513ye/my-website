@@ -1,1 +1,14 @@
-{}
+{
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/api/newsletter/route": "app/api/newsletter/route.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/projects/[slug]/page": "app/projects/[slug]/page.js",
+  "/projects/page": "app/projects/page.js",
+  "/about/page": "app/about/page.js",
+  "/more/page": "app/more/page.js",
+  "/publications/page": "app/publications/page.js",
+  "/more/[slug]/page": "app/more/[slug]/page.js",
+  "/repos/page": "app/repos/page.js"
+}

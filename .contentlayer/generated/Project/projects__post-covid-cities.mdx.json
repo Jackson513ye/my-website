@@ -1,15 +1,15 @@
 {
   "title": "Post-COVID Cities — Understanding New Dynamics of Travel Behaviour and Activities",
-  "date": "2023-06-01T00:00:00.000Z",
-  "endDate": "2023-12-01T00:00:00.000Z",
-  "role": "Researcher",
-  "mentors": null,
-  "excerpt": "Investigated shifts in urban travel behaviours post-COVID by leveraging Twitter data to capture pre- and post-pandemic mobility trends.",
+  "date": "2024-06-01T00:00:00.000Z",
+  "endDate": "2024-10-01T00:00:00.000Z",
+  "role": "Project Leader / Working Paper",
+  "mentors": "Asst.Prof. Shuli Luo",
+  "excerpt": "Investigated shifts in urban travel behaviours post-COVID in Hongkong by leveraging Twitter data to capture pre- and post-pandemic mobility trends.",
   "image": "/images/projects/post-covid-cities-themed.svg",
   "external": null,
   "body": {
-    "raw": "\n- Developed a framework integrating SVM for data cleansing with LDA for topic modelling to extract travel patterns.\n- Uncovered changes—declining work/entertainment trips and rising healthcare mobility—and mapped spatial–temporal variations to inform urban planning.\n",
-    "code": "var Component=(()=>{var p=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var x=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),f=(e,t)=>{for(var n in t)a(e,n,{get:t[n],enumerable:!0})},s=(e,t,n,o)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of g(t))!v.call(e,r)&&r!==n&&a(e,r,{get:()=>t[r],enumerable:!(o=u(t,r))||o.enumerable});return e};var D=(e,t,n)=>(n=e!=null?p(h(e)):{},s(t||!e||!e.__esModule?a(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>s(a({},\"__esModule\",{value:!0}),e);var c=x((y,l)=>{l.exports=_jsx_runtime});var w={};f(w,{default:()=>m,frontmatter:()=>j});var i=D(c()),j={title:\"Post-COVID Cities \\u2014 Understanding New Dynamics of Travel Behaviour and Activities\",date:\"2023-06-01\",endDate:\"2023-12-01\",role:\"Researcher\",mentors:null,excerpt:\"Investigated shifts in urban travel behaviours post-COVID by leveraging Twitter data to capture pre- and post-pandemic mobility trends.\",image:\"/images/projects/post-covid-cities-themed.svg\",external:null};function d(e){let t={li:\"li\",ul:\"ul\",...e.components};return(0,i.jsxs)(t.ul,{children:[(0,i.jsx)(t.li,{children:\"Developed a framework integrating SVM for data cleansing with LDA for topic modelling to extract travel patterns.\"}),(0,i.jsx)(t.li,{children:\"Uncovered changes\\u2014declining work/entertainment trips and rising healthcare mobility\\u2014and mapped spatial\\u2013temporal variations to inform urban planning.\"})]})}function m(e={}){let{wrapper:t}=e.components||{};return t?(0,i.jsx)(t,{...e,children:(0,i.jsx)(d,{...e})}):d(e)}return b(w);})();\n;return Component;"
+    "raw": "\n* Investigated the shifts in urban travel behaviours post-COVID by leveraging social media (Twitter) data to capture pre- and post-pandemic mobility trends.\n* Developed a framework integrating SVM for data cleansing with LDA for topic modelling to extract travel patterns.\n* Uncovered changes—declining work/entertainment trips and rising healthcare mobility—and mapped spatial–temporal variations to inform urban planning.\n",
+    "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var g=Object.getOwnPropertyDescriptor;var u=Object.getOwnPropertyNames;var h=Object.getPrototypeOf,v=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>(e||t((e={exports:{}}).exports,e),e.exports),x=(t,e)=>{for(var n in e)r(t,n,{get:e[n],enumerable:!0})},s=(t,e,n,o)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let a of u(e))!v.call(t,a)&&a!==n&&r(t,a,{get:()=>e[a],enumerable:!(o=g(e,a))||o.enumerable});return t};var b=(t,e,n)=>(n=t!=null?m(h(t)):{},s(e||!t||!t.__esModule?r(n,\"default\",{value:t,enumerable:!0}):n,t)),D=t=>s(r({},\"__esModule\",{value:!0}),t);var d=f((C,l)=>{l.exports=_jsx_runtime});var w={};x(w,{default:()=>p,frontmatter:()=>j});var i=b(d()),j={title:\"Post-COVID Cities \\u2014 Understanding New Dynamics of Travel Behaviour and Activities\",date:\"2024-06-01\",endDate:\"2024-10-01\",role:\"Project Leader / Working Paper\",mentors:\"Asst.Prof. Shuli Luo\",excerpt:\"Investigated shifts in urban travel behaviours post-COVID in Hongkong by leveraging Twitter data to capture pre- and post-pandemic mobility trends.\",image:\"/images/projects/post-covid-cities-themed.svg\",external:null};function c(t){let e={li:\"li\",ul:\"ul\",...t.components};return(0,i.jsxs)(e.ul,{children:[(0,i.jsx)(e.li,{children:\"Investigated the shifts in urban travel behaviours post-COVID by leveraging social media (Twitter) data to capture pre- and post-pandemic mobility trends.\"}),(0,i.jsx)(e.li,{children:\"Developed a framework integrating SVM for data cleansing with LDA for topic modelling to extract travel patterns.\"}),(0,i.jsx)(e.li,{children:\"Uncovered changes\\u2014declining work/entertainment trips and rising healthcare mobility\\u2014and mapped spatial\\u2013temporal variations to inform urban planning.\"})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,i.jsx)(e,{...t,children:(0,i.jsx)(c,{...t})}):c(t)}return D(w);})();\n;return Component;"
   },
   "_id": "projects/post-covid-cities.mdx",
   "_raw": {
@@ -22,9 +22,9 @@
   "type": "Project",
   "readingTime": {
     "text": "1 min read",
-    "minutes": 0.17,
-    "time": 10200,
-    "words": 34
+    "minutes": 0.28,
+    "time": 16800,
+    "words": 56
   },
   "slug": "post-covid-cities",
   "path": "projects/post-covid-cities",

@@ -1,0 +1,14 @@
+{
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/robots.txt/route": "/robots.txt",
+  "/api/newsletter/route": "/api/newsletter",
+  "/_not-found/page": "/_not-found",
+  "/page": "/",
+  "/projects/[slug]/page": "/projects/[slug]",
+  "/projects/page": "/projects",
+  "/about/page": "/about",
+  "/more/page": "/more",
+  "/publications/page": "/publications",
+  "/more/[slug]/page": "/more/[slug]",
+  "/repos/page": "/repos"
+}
