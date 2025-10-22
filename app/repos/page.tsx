@@ -33,6 +33,14 @@ const repos: RepoDef[] = [
     imgSrc: '/images/repos/metreec.svg',
     fullName: 'ai4city-hkust/Metreec-v1.0',
   },
+  {
+    title: 'Mask2Cluster',
+    description:
+      'Seeded DBSCAN pipeline scaffold that searches masked point clouds around a pose-derived reference point C, returning the first cluster that meets configurable thresholds. Ships CMake-based layout, planned PDAL/PCL integrations, and YAML-driven defaults for future point-cloud extraction milestones.',
+    href: 'https://github.com/Jackson513ye/Mask2Cluster',
+    imgSrc: '/images/repos/mask2cluster.svg',
+    fullName: 'Jackson513ye/Mask2Cluster',
+  },
 ]
 
 async function fetchRepoMeta(fullName: string) {
