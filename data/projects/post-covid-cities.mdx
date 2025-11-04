@@ -63,12 +63,7 @@ We utilized offline maps containing approximately 250,000 Points of Interest (PO
 
 ### Topic Modeling with LDA
 
-We employed Latent Dirichlet Allocation (LDA), a generative probabilistic model widely used for unsupervised text classification, to extract travel semantics from Twitter content. The model assumes:
-- A set of words W = {w₁, ..., wᵥ}
-- A set of texts D = {d₁, ..., d_M}
-- A set of topics Z = {z₁, ..., z_K}
-
-Each topic is determined by a conditional probability distribution over words, following a multinomial distribution with Dirichlet priors.
+We employed Latent Dirichlet Allocation (LDA), a generative probabilistic model widely used for unsupervised text classification, to extract travel semantics from Twitter content. The model assumes a set of words, a set of texts (documents), and a set of hidden topics. Each topic is determined by a conditional probability distribution over words, following a multinomial distribution with Dirichlet priors.
 
 ### Vocabulary Generation
 
@@ -141,6 +136,3 @@ This research provides new insights into:
 The complete framework demonstrates how social media data can efficiently supplement traditional transportation surveys, offering real-time insights at significantly lower costs while maintaining analytical rigor.
 
 ---
-
-**Authors:** Wei Ye, Feixiang Zhou, Linxian Chen, Hao Li, Ce Zhang  
-**Discipline Coordinator:** Shuli Luo
