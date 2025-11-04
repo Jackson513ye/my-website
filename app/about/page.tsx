@@ -37,7 +37,7 @@ export default function AboutPage() {
             <div className="mt-3 grid gap-6 md:grid-cols-5 items-center">
               <div className="md:col-span-3">
                 <p className="text-gray-700 dark:text-gray-300">
-                  I study how urban form and vegetation influence thermal comfort and human mobility, and how natural language interfaces can make 3D spatial data more accessible. Recently, I have worked on teacher–student pipelines that combine ENVI-met simulations and explainable ML to derive design-ready guidance for street-tree configurations, and on a Spatial LLM that maps natural language to spatial reasoning on indoor point clouds.
+                  My research interests span 3D city modeling and simulation, built environment analysis, and social sensing for urban mobility behavior analysis. Recently, I have worked on studies about how urban form and vegetation influence thermal comfort, and how natural language interfaces can make 3D scan data more accessible.
                 </p>
               </div>
               <div className="md:col-span-2">
