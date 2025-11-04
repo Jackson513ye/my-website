@@ -155,7 +155,7 @@ export default function AboutPage() {
             <ul className="mt-3 space-y-2 text-gray-700 dark:text-gray-300">
               <li className="flex items-start gap-2">
                 <Code2 className="mt-0.5 h-4 w-4 text-gray-500" />
-                <span>Programming: Python (OpenCV, PyTorch), C++ (CGAL, Eigen)</span>
+                <span>Programming: Python (OpenCV, PyTorch), C++ (CGAL, Eigen, PCL)</span>
               </li>
               <li className="flex items-start gap-2">
                 <Wrench className="mt-0.5 h-4 w-4 text-gray-500" />
