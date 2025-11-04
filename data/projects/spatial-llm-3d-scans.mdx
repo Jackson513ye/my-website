@@ -9,6 +9,210 @@ image: /images/projects/spatial-llm-themed.svg
 external: 
 ---
 
-- Built a chatbot that converts free-form questions into intents and executable steps operating on indoor point clouds.
-- Integrated language understanding with 2D–3D matching, lightweight segmentation, and geometric queries to locate objects, infer relations, and extract spatial attributes.
-- Delivered concise answers with interactive views and auto-generated measurements for rapid exploration and repeatable data extraction.
+## Overview
+
+Recent advances in Large Language Models (LLMs) have significantly improved capabilities in communication, reasoning, and 2D image understanding. However, a critical gap remains: these models are largely ungrounded in 3D environments, limiting their ability to reason about spatial relationships crucial for real-world tasks like counting objects in a room or measuring areas.
+
+This project, conducted in collaboration with **ScanPlan** (a company specializing in point cloud storage and classification), addresses this gap by developing a system that enables natural language interaction with indoor spatial data derived from LiDAR point clouds and panoramic imagery. The goal is to make rich 3D building data queryable through intuitive, language-based interaction—transforming how non-experts access and utilize digital twins.
+
+<Image 
+  src="/images/projects/spatial-llm/seg.png" 
+  alt="Segmented Point Cloud" 
+  width={800} 
+  height={400}
+/>
+
+### Problem Statement
+
+The Architecture, Engineering, and Construction (AEC) sector relies heavily on Scan-to-BIM workflows using LiDAR to generate detailed point clouds. These point clouds, combined with panoramic images, feed high-fidelity digital twins. Despite the richness of this data, **extracting answers requires time-consuming manual processing**, creating accessibility barriers for non-technical users.
+
+**Key Challenge**: How can we enable stakeholders to ask practical questions like *"How much will it cost to paint all the walls in the house?"* and receive traceable, evidence-backed answers directly from spatial data?
+
+## System Architecture
+
+The system processes spatial data through an end-to-end pipeline that transforms raw 3D scans into structured, queryable information:
+
+<Image 
+  src="/images/projects/spatial-llm/PCGflowchart.png" 
+  alt="System Pipeline Architecture" 
+  width={1000} 
+  height={600}
+/>
+
+### Core Components
+
+1. **Room Segmentation Pipeline**
+   - Automated floor detection through height histogram analysis
+   - 2D floor plan generation from 3D point clouds
+   - Wall expansion for accurate room boundary definition
+   
+2. **Geometric Processing Functions**
+   - Object clustering using spatial proximity
+   - Upright Oriented Bounding Box (UOBB) computation
+   - Surface reconstruction via PolyFit and Poisson methods
+   - Precise volume and area calculations
+
+3. **Structured Database**
+   - SQL database storing geometric properties and relationships
+   - Object inventories organized by room and floor
+   - Support for complex spatial queries
+
+4. **AI Agent with Tool Integration**
+   - Five specialized geometric tools (VOL, CLR, BBD, RCN, VIS)
+   - Retrieval-Augmented Generation (RAG) methodology
+   - Multi-room reasoning capabilities
+   - Proactive visualization generation
+
+5. **Multimodal Interface**
+   - Text-based natural language queries
+   - 2D panorama interaction with click-to-select
+   - 3D point cloud visualization
+   - Seamless 2D-to-3D object mapping using SAM (Segment Anything Model)
+
+## Key Results
+
+### Room Segmentation and Reconstruction
+
+The system successfully segments and reconstructs residential buildings with varying complexity levels:
+
+<Image 
+  src="/images/projects/spatial-llm/ground_floor_shells.png" 
+  alt="Reconstructed Ground Floor Shells" 
+  width={900} 
+  height={500}
+/>
+
+**Ground Floor Performance (House Dataset)**:
+- Volume accuracy: **11.20%** average difference from ground truth
+- Area accuracy: **7.86%** average difference
+- Height accuracy: **2.94%** average difference
+
+Individual rooms showing successful segmentation and object detection:
+
+<div style={{ display: 'flex', gap: '1rem', marginTop: '1rem' }}>
+  <div style={{ flex: 1 }}>
+    <Image 
+      src="/images/projects/spatial-llm/shell_lr.png" 
+      alt="Living Room Shell" 
+      width={400} 
+      height={300}
+    />
+    <p style={{ textAlign: 'center', fontSize: '0.9rem', marginTop: '0.5rem' }}>Living Room Shell</p>
+  </div>
+  <div style={{ flex: 1 }}>
+    <Image 
+      src="/images/projects/spatial-llm/combined_elements_lr.png" 
+      alt="Living Room with Objects" 
+      width={400} 
+      height={300}
+    />
+    <p style={{ textAlign: 'center', fontSize: '0.9rem', marginTop: '0.5rem' }}>Living Room with Detected Objects</p>
+  </div>
+</div>
+
+### PolyFit Reconstruction Quality
+
+The PolyFit method produces accurate, low-complexity reconstructions when point cloud coverage is sufficient:
+
+<Image 
+  src="/images/projects/spatial-llm/polyfit_succes.jpg" 
+  alt="Successful PolyFit Reconstruction" 
+  width={800} 
+  height={500}
+/>
+
+The algorithm successfully identifies planar surfaces and generates watertight manifold meshes suitable for precise geometric calculations.
+
+### Complete Building Reconstruction
+
+<Image 
+  src="/images/projects/spatial-llm/full_house_shells.png" 
+  alt="Full House Reconstruction" 
+  width={900} 
+  height={600}
+/>
+
+The system handles both ground floor and upper floor reconstruction, though accuracy varies based on point cloud quality and occlusion levels.
+
+## Technical Innovations
+
+### 1. Height-Based Floor Detection
+
+The system uses histogram analysis to identify floor heights automatically:
+
+<Image 
+  src="/images/projects/spatial-llm/height_histogram_True.png" 
+  alt="Ground Floor Height Detection" 
+  width={700} 
+  height={400}
+/>
+
+Peak detection with adaptive thresholding ensures robust floor identification even in complex multi-story buildings.
+
+### 2. 2D Floor Plan Generation
+
+A novel approach projects 3D structural elements onto 2D grids, segments rooms, and expands walls to ensure shared boundaries:
+
+<Image 
+  src="/images/projects/spatial-llm/floorplan_gf_house.png" 
+  alt="Generated Floor Plan" 
+  width={800} 
+  height={300}
+/>
+
+The three-stage process (projection → noise filtering → wall expansion) produces accurate floor plans that preserve topological relationships.
+
+### 3. AI Agent Reasoning Framework
+
+The agent employs a five-stage reasoning cycle evolved from the "Thought-Action" framework:
+
+1. **Scope Classification**: Determines if query requires single-room or multi-room analysis
+2. **Contextual Data Grounding**: Uses RAG to fetch precise data from SQL database
+3. **Tool Invocation**: Triggers geometric calculations or image analysis as needed
+4. **Information Synthesis**: LLM parses complete context to generate final answer
+5. **Proactive Visualization**: Automatically generates 3D viewer links for relevant objects
+
+### 4. Geometric Tool Suite
+
+Five specialized tools provide the agent with computational capabilities:
+
+- **VOL (Volume)**: Calculates 3D mesh volume using signed volume method
+- **CLR (Color)**: Analyzes dominant colors via K-means clustering
+- **BBD (Distance)**: Computes Euclidean distance between bounding box centers
+- **RCN (Reconstruct)**: Generates watertight meshes from point clouds
+- **VIS (Visualize)**: Creates interactive 3D viewer URLs
+
+## Challenges and Limitations
+
+### Room Segmentation Scalability
+
+The current approach requires manual parameter tuning for different building types. Slice heights that work for standard residential buildings fail for structures with floor-to-ceiling windows or irregular geometries. Future work should focus on adaptive parameter selection.
+
+### Upper Floor Reconstruction
+
+First floor reconstruction showed significantly higher errors (58.28% volume difference) due to:
+- Heavy occlusion from furniture and objects
+- Slanted roofs creating non-uniform ceiling heights
+- Reduced point cloud density in elevated areas
+
+### Agent Architecture Bottlenecks
+
+1. **Static Data Ingestion**: Database is immutable; new scans require complete regeneration
+2. **Context Window Limitations**: O(N) scaling for multi-room queries becomes infeasible beyond ~100 rooms
+3. **Sequential Tool Execution**: No parallel processing of independent calculations
+4. **Real-time Computation Overhead**: On-demand volume/color calculations introduce latency
+
+## Future Directions
+
+The project demonstrates a viable path toward making 3D building data queryable through natural language, but significant engineering challenges remain for production deployment:
+
+- **Incremental data updates** to support live database modifications
+- **Hierarchical RAG** to overcome context window limitations
+- **Parallel tool execution** to reduce query latency
+- **Pre-computed geometric caching** for common properties
+- **Adaptive parameter tuning** for diverse building types
+- **Multi-building dataset validation** to assess generalizability
+
+## Conclusion
+
+This project successfully validates the core concept of grounding LLMs in 3D spatial environments. By integrating point cloud processing, geometric computation, and natural language understanding, the system enables non-experts to extract insights from complex building data through intuitive queries. While scalability challenges remain, the prototype demonstrates that **accessible, language-driven interaction with digital twins is achievable**—opening new possibilities for the AEC sector and beyond.
