@@ -32,15 +32,13 @@ A stratified household travel survey in Xi'an (Sept–Nov 2021) yields 965 emplo
 
 ### Outcome: Weighted Commuting CO₂ (WCE)
 
-For commuter $i$ using mode $n$:
+For commuter _i_ using mode _n_:
 
-$$
-WCE_i = D_i \times F_n \times C_i
-$$
+**WCE<sub>i</sub> = D<sub>i</sub> × F<sub>n</sub> × C<sub>i</sub>**
 
-where $D_i$ is residence–workplace distance, $F_n$ is the mode-specific emission factor, and $C_i$ is a traffic-condition correction determined by urban zones. Non-motorized modes are set to zero.
+where D<sub>i</sub> is residence–workplace distance, F<sub>n</sub> is the mode-specific emission factor, and C<sub>i</sub> is a traffic-condition correction determined by urban zones. Non-motorized modes are set to zero.
 
-#### Table A. Mode-specific CO₂ emission factors (used in $F_n$)
+#### Table A. Mode-specific CO₂ emission factors (used in F<sub>n</sub>)
 
 | Mode | Emission Factor (g CO₂/km) |
 |------|----------------------------|
@@ -50,7 +48,7 @@ where $D_i$ is residence–workplace distance, $F_n$ is the mode-specific emissi
 | Metro | 20.9 |
 | E-bike / Walk / Bicycle | 0 |
 
-#### Table B. Traffic-condition correction factors by urban zone (used in $C_i$)
+#### Table B. Traffic-condition correction factors by urban zone (used in C<sub>i</sub>)
 
 | Zone | Car/Taxi Speed | Car/Taxi Weight | Bus Speed | Bus Weight |
 |------|----------------|------------------|-----------|------------|
@@ -65,19 +63,15 @@ We measure BE around residence and workplace using a 15-minute cyclist circle an
 
 - **Land-use mix (LUM)** via entropy:
 
-$$
-LUM_i = -\frac{\sum_a p_a \ln p_a}{\ln N}
-$$
+**LUM<sub>i</sub> = -(Σ<sub>a</sub> p<sub>a</sub> ln p<sub>a</sub>) / ln N**
 
-where $p_a$ is the share of land-use class $a$ in region $i$.
+where p<sub>a</sub> is the share of land-use class _a_ in region _i_.
 
 - **Job accessibility index (JAI)** at Jiedao scale:
 
-$$
-JAI_i = \frac{W_i + \sum_{j=1}^{S} \frac{W_j}{d_{ij}^2}}{WP_i}
-$$
+**JAI<sub>i</sub> = (W<sub>i</sub> + Σ<sub>j=1..S</sub> W<sub>j</sub>/d<sub>ij</sub><sup>2</sup>) / WP<sub>i</sub>**
 
-where $W$ is job supply, $WP$ is working-age population, and $d_{ij}$ are centroid distances within 4 km.
+where W is job supply, WP is working-age population, and d<sub>ij</sub> are centroid distances within 4 km.
 
 - **Transit variables**: bus-stop count and a binary metro presence (≥ 1 station) within each circle.
 - **Design** includes parking-lot density.
@@ -85,35 +79,25 @@ where $W$ is job supply, $WP$ is working-age population, and $d_{ij}$ are centro
 
 ### Modeling: Cross-Classified Multilevel Model (CCMM)
 
-Let commuter $i$ live in residence community $r$ and work in workplace community $w$.
+Let commuter _i_ live in residence community _r_ and work in workplace community _w_.
 
 **Level-1 (individual):**
 
-$$
-WCE_{irw} = \phi + \alpha_r + \alpha_w + \beta_S^T X_i + e_{irw}, \quad e_{irw} \sim N(0, \sigma_{irw}^2)
-$$
+**WCE<sub>irw</sub> = φ + α<sub>r</sub> + α<sub>w</sub> + β<sub>S</sub><sup>T</sup> X<sub>i</sub> + e<sub>irw</sub>,  where e<sub>irw</sub> ~ N(0, σ<sub>irw</sub><sup>2</sup>)**
 
 **Level-2 (residence):**
 
-$$
-\alpha_r = \beta_R^T X_r + e_r, \quad e_r \sim N(0, \sigma_r^2)
-$$
+**α<sub>r</sub> = β<sub>R</sub><sup>T</sup> X<sub>r</sub> + e<sub>r</sub>,  where e<sub>r</sub> ~ N(0, σ<sub>r</sub><sup>2</sup>)**
 
 **Level-2 (workplace):**
 
-$$
-\alpha_w = \beta_W^T X_w + e_w, \quad e_w \sim N(0, \sigma_w^2)
-$$
+**α<sub>w</sub> = β<sub>W</sub><sup>T</sup> X<sub>w</sub> + e<sub>w</sub>,  where e<sub>w</sub> ~ N(0, σ<sub>w</sub><sup>2</sup>)**
 
 **Variance attribution (ICCs):**
 
-$$
-ICC_{res} = \frac{\sigma_r^2}{\sigma_{irw}^2 + \sigma_r^2 + \sigma_w^2}
-$$
+**ICC<sub>res</sub> = σ<sub>r</sub><sup>2</sup> / (σ<sub>irw</sub><sup>2</sup> + σ<sub>r</sub><sup>2</sup> + σ<sub>w</sub><sup>2</sup>)**
 
-$$
-ICC_{work} = \frac{\sigma_w^2}{\sigma_{irw}^2 + \sigma_r^2 + \sigma_w^2}
-$$
+**ICC<sub>work</sub> = σ<sub>w</sub><sup>2</sup> / (σ<sub>irw</sub><sup>2</sup> + σ<sub>r</sub><sup>2</sup> + σ<sub>w</sub><sup>2</sup>)**
 
 ## Results
 
@@ -121,7 +105,7 @@ $$
 
 Commuting CO₂ is highly concentrated: roughly 10% of commuters generate about 67% of total commuting CO₂. MHI commuters emit over 3× LI commuters on average; the disparity is driven primarily by mode choice (greater private car/taxi share), not distance.
 
-![Lorenz curve of weighted commuting CO₂ (67–10 pattern)](/images/projects/commute-carbon/Lorenz%20curve%20of%20weighted%20commuting%20CO2%20%2867%E2%80%9310%20pattern%29.png)
+![Lorenz curve of weighted commuting CO₂ (67–10 pattern)](/images/projects/commute-carbon/Lorenzcurv.png)
 
 ![Mean WCE and zero-emission share across AHI levels (LI vs. MHI)](/images/projects/commute-carbon/Mean%20WCE%20and%20zero-emission%20share%20across%20AHI%20levels%20%28LI%20vs.%20MHI%29.png)
 
@@ -129,11 +113,11 @@ Commuting CO₂ is highly concentrated: roughly 10% of commuters generate about 
 
 ### R2. Empty CCMMs (variance decomposition)
 
-Workplace context dominates in the full sample: $ICC_{work} = 0.731$ vs. $ICC_{res} = 0.078$. The combined (res + work) ICC is higher for MHI (0.786) than LI (0.416), implying BE explains more for MHI commuters.
+Workplace context dominates in the full sample: ICC<sub>work</sub> = 0.731 vs. ICC<sub>res</sub> = 0.078. The combined (res + work) ICC is higher for MHI (0.786) than LI (0.416), implying BE explains more for MHI commuters.
 
 #### Table C. Empty-model variance components and ICCs
 
-| Group | $\sigma_r^2$ | $\sigma_w^2$ | $\sigma_{irw}^2$ | $ICC_{res}$ | $ICC_{work}$ | N |
+| Group | σ<sub>r</sub><sup>2</sup> | σ<sub>w</sub><sup>2</sup> | σ<sub>irw</sub><sup>2</sup> | ICC<sub>res</sub> | ICC<sub>work</sub> | N |
 |-------|--------------|--------------|------------------|-------------|--------------|---|
 | Whole sample | 128023.1 | 1192641.1 | 311567.3 | 0.078 | 0.731 | 965 |
 | LI | 79081.8 | 85566.2 | 230761.6 | 0.200 | 0.216 | 232 |
@@ -161,11 +145,11 @@ Effects generally amplify with income:
 
 | Interaction term | Direction (MHI vs. LI) | Significance (p) |
 |------------------|------------------------|------------------|
-| $d_{center\_r} \times AHI$ | positive | < 0.05 |
-| $num_{bus\_w} \times AHI$ | negative | < 0.05 |
-| $metro_w \times AHI$ | negative | 0.10 to 0.001 |
-| $den_{park\_w} \times AHI$ | positive | * to ** |
-| $ja_w \times AHI$ | positive | * to *** |
+| d<sub>center_r</sub> × AHI | positive | < 0.05 |
+| num<sub>bus_w</sub> × AHI | negative | < 0.05 |
+| metro<sub>w</sub> × AHI | negative | 0.10 to 0.001 |
+| den<sub>park_w</sub> × AHI | positive | * to ** |
+| ja<sub>w</sub> × AHI | positive | * to *** |
 
 ## Conclusions
 
