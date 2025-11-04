@@ -4,11 +4,143 @@ date: '2024-06-01'
 endDate: '2024-10-01'
 role: Project Leader / Working Paper
 mentors: Asst.Prof. Shuli Luo
-excerpt: Investigated shifts in urban travel behaviours post-COVID in Hongkong by leveraging Twitter data to capture pre- and post-pandemic mobility trends.
+excerpt: Investigated shifts in urban travel behaviours post-COVID in Hong Kong by leveraging Twitter data to capture pre- and post-pandemic mobility trends.
 image: /images/projects/post-covid-cities-themed.svg
 external: 
 ---
 
-* Investigated the shifts in urban travel behaviours post-COVID by leveraging social media (Twitter) data to capture pre- and post-pandemic mobility trends.
-* Developed a framework integrating SVM for data cleansing with LDA for topic modelling to extract travel patterns.
-* Uncovered changes—declining work/entertainment trips and rising healthcare mobility—and mapped spatial–temporal variations to inform urban planning.
+## Abstract
+
+The COVID-19 pandemic has fundamentally transformed global travel behaviour and urban mobility patterns. This research investigates these transformative effects by analyzing Twitter data from Hong Kong across two periods: July-December 2019 (pre-pandemic) and July-September 2022 (post-pandemic). We observed substantial decreases in entertainment and work-related travel, with entertainment travel (tourism, shopping) experiencing the most pronounced decline due to its non-mandatory nature. Conversely, healthcare-related travel increased significantly. 
+
+Leveraging social media data and advanced machine learning techniques, we developed a novel framework integrating Support Vector Machine (SVM) for data cleansing and Latent Dirichlet Allocation (LDA) for topic modelling to extract nuanced travel patterns. The findings provide critical insights for transportation policy formulation and resource allocation in the post-pandemic urban landscape.
+
+## Introduction
+
+### Background
+
+COVID-19 has left an indelible mark on societies worldwide, reshaping everything from global economies to daily commuting patterns. While immediate crisis responses have evolved and life appears largely familiar, the long-term societal ramifications persist. The pandemic fundamentally altered work and travel habits: remote work surged, public transport faced heightened health scrutiny, crowded indoor spaces were avoided, and mobility patterns shifted dramatically.
+
+Understanding these evolving travel dynamics is imperative for efficient transport resource allocation and policy formulation. Traditional transportation surveys are both financially draining and time-consuming, involving phone surveys, physical questionnaires, or extensive sensor deployments. In contrast, social media platforms like Twitter and Weibo offer APIs for data extraction, providing researchers access to vast geotagged datasets that can yield transport-related insights at significantly lower costs.
+
+### Research Gap
+
+While numerous studies have examined mobility shifts before and after COVID-19, most have focused on geographical behavioral changes. The intricate shifts in travel structure—particularly nuanced travel behaviors rooted in patterns and semantics—remain largely unexplored. Moreover, a foundational framework is needed to comprehensively understand the temporal evolution of these mobility patterns, especially regarding individual travel destinations and land utilization characteristics.
+
+## Methodology
+
+### Data Resources and Processing Framework
+
+This research focused on the Hong Kong area, examining Twitter data from two key periods:
+- **Pre-pandemic:** July 1 - December 31, 2019
+- **Post-pandemic:** July 1 - September 31, 2022
+
+Initial datasets comprised 284,656 and 37,484 Twitter entries respectively. After rigorous data refinement using machine learning techniques, we distilled this to 17,568 and 12,575 relevant entries suitable for mobility analysis.
+
+![Data Resources and Processing Framework](/images/projects/post-covid-cities/figure5-data-framework.png)
+*Data resources and framework of data processing*
+
+![Timeline of COVID-19 Progression](/images/projects/post-covid-cities/figure2-covid-timeline.png)
+*Timeline of COVID-19 progression showing key phases of the pandemic*
+
+### Support Vector Machine (SVM) for Bot Detection
+
+A significant challenge in social media data analysis is the prevalence of bot accounts generating advertising content. We implemented SVM with a Radial Basis Function (RBF) kernel to identify and eliminate robot users with 94% accuracy.
+
+Key parameters:
+- C₁ = 100
+- C₂ = 0.1
+- Loss function incorporating both labeled and unlabeled data
+
+The SVM classifier separates human users from bot accounts by establishing an optimal hyperplane in feature space, achieving 94% accuracy in bot detection.
+
+![SVM Results](/images/projects/post-covid-cities/figure8-svm-results.png)
+*Results of Support Vector Machine: brown dots = human users, yellow dots = suspected bots, dashed line = separation hyperplane*
+
+### POI Matching and Coordinate Conversion
+
+We utilized offline maps containing approximately 250,000 Points of Interest (POI) from 2019 and 2022. Due to coordinate system differences between Google Maps (WGS84) and Twitter data (Mars coordinate system), coordinate conversion was necessary. Using k-d tree methodology, we matched each Twitter GPS data point to the nearest POI, eliminating matches with distances exceeding 50 meters to ensure accuracy.
+
+### Topic Modeling with LDA
+
+We employed Latent Dirichlet Allocation (LDA), a generative probabilistic model widely used for unsupervised text classification, to extract travel semantics from Twitter content. The model assumes:
+- A set of words W = {w₁, ..., wᵥ}
+- A set of texts D = {d₁, ..., d_M}
+- A set of topics Z = {z₁, ..., z_K}
+
+Each topic is determined by a conditional probability distribution over words, following a multinomial distribution with Dirichlet priors.
+
+### Vocabulary Generation
+
+We generated activity vocabularies by encoding tweets with spatial-temporal information. Each vocabulary item follows the format: **A[POI_type]B[time_of_day]Y[day_of_week]** (e.g., A01B09Y1 = restaurant visit at 9 AM on Monday).
+
+### Determining Optimal Topic Number
+
+We applied perplexity analysis to identify the optimal number of topics. Perplexity measures language model quality by calculating sentence probability. Lower perplexity indicates better model fit. Analysis revealed the optimal number of topics to be K=6.
+
+![Perplexity Analysis](/images/projects/post-covid-cities/figure10-perplexity.png)
+*Perplexity under different topic numbers showing optimal K=6*
+
+## Results
+
+### Six Key Travel Patterns Identified
+
+Using variational EM algorithm to solve the LDA model with K=6, we identified six distinct travel topics:
+
+| Pattern | Keywords | Activity Type |
+|---------|----------|---------------|
+| Topic 1 | Office locations, weekday mornings/afternoons | **Working** |
+| Topic 2 | Restaurants, shopping centers, weekend evenings | **Shopping and Catering** |
+| Topic 3 | Residential areas, late evenings, weekends | **Home and Accommodation** |
+| Topic 4 | Tourist attractions, leisure venues, weekends | **Tourism and Leisure** |
+| Topic 5 | Hospitals, clinics, weekday mornings | **Medical Treatment** |
+| Topic 6 | Service facilities, various times | **Life Services** |
+
+![LDA Model Results](/images/projects/post-covid-cities/figure11-lda-results.png)
+*Figure 11: Results of LDA model showing topic distribution before and during COVID-19*
+
+### Major Findings
+
+1. **Entertainment and Work Travel Decline**: Both entertainment consumption travel (tourism, shopping) and work-related travel (commuting) decreased significantly post-COVID. Entertainment travel experienced a more pronounced decline, likely due to its non-mandatory nature.
+
+2. **Healthcare Travel Surge**: Travel related to medical treatment increased significantly after COVID-19, reflecting heightened health consciousness and potentially deferred medical care during lockdowns.
+
+3. **Spatial Variations**: Analysis across five Hong Kong districts (Outlying Islands, Northern District, Central and Western District, Kowloon Urban Areas, and Yau Tsim Mong) revealed:
+   - Central and Western District showed the highest growth rate in healthcare travel, attributable to advanced medical facilities
+   - Kowloon City exhibited the minimum decrease in work commuting, possibly due to significant adoption of work-from-home strategies
+
+![Spatial Pattern Changes](/images/projects/post-covid-cities/figure12-spatial-patterns.png)
+*Figure 12: Results of traveling pattern changes in different zones*
+
+## Conclusions and Contributions
+
+### Main Contributions
+
+1. **Novel Framework**: Designed a comprehensive framework for cleaning Twitter data and mining travel patterns using SVM and nearest-point matching methods, achieving 94% accuracy in robot user elimination.
+
+2. **Semantic Exploration**: Applied topic modeling (LDA) to explore travel semantics in Twitter data, revealing nuanced changes in travel structure beyond simple geographical shifts.
+
+3. **Spatial-Temporal Integration**: Weighted travel semantics to geographical space, uncovering district-level variations in travel pattern changes.
+
+### Policy Implications
+
+The findings provide crucial support for:
+- Transportation resource allocation in the post-pandemic era
+- Policy formulation by government and traffic management departments
+- Urban planning strategies that accommodate new travel dynamics
+- Public health infrastructure planning based on observed healthcare mobility increases
+
+### Methodological Advances
+
+This research provides new insights into:
+- Travel information extraction methodologies from social media
+- Social media data mining and cleaning techniques
+- Integration of machine learning with transportation analytics
+- Temporal evolution tracking of mobility patterns
+
+The complete framework demonstrates how social media data can efficiently supplement traditional transportation surveys, offering real-time insights at significantly lower costs while maintaining analytical rigor.
+
+---
+
+**Authors:** Wei Ye, Feixiang Zhou, Linxian Chen, Hao Li, Ce Zhang  
+**Discipline Coordinator:** Shuli Luo
