@@ -15,21 +15,11 @@ const Header = () => {
       <Link href="/" aria-label={siteMetadata.headerTitle} className="group">
         <div className="flex items-center">
           <div className="mr-3">
-            <Image 
-              src="/favicons/favicon-96x96.png" 
-              alt="Logo" 
-              width={64} 
-              height={64} 
-              className="rounded-sm"
-            />
+            <Image src="/favicons/favicon-96x96.png" alt="Logo" width={64} height={64} className="rounded-sm" />
           </div>
           <div className="flex flex-col">
-            <span className="text-2xl font-bold text-gray-900 dark:text-gray-100 group-hover:text-primary-500 dark:group-hover:text-primary-400 transition-colors">
-              Redfish's Space
-            </span>
-            <span className="text-lg font-medium text-gray-600 dark:text-gray-300 group-hover:text-primary-500 dark:group-hover:text-primary-400 transition-colors">
-              红鱼的空间
-            </span>
+            <span className="group-hover:text-primary-500 dark:group-hover:text-primary-400 text-2xl font-bold text-gray-900 transition-colors dark:text-gray-100">Redfish's Space</span>
+            <span className="group-hover:text-primary-500 dark:group-hover:text-primary-400 text-lg font-medium text-gray-600 transition-colors dark:text-gray-300">红鱼的空间</span>
           </div>
         </div>
       </Link>

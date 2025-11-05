@@ -44,8 +44,7 @@ async function fetchRepoMeta(fullName: string) {
       // Cache for 1 hour, but update in background when revalidated
       next: { revalidate: 3600 },
     })
-    if (!res.ok)
-      return { language: null as string | null, updated_at: null as string | null, stargazers_count: null as number | null }
+    if (!res.ok) return { language: null as string | null, updated_at: null as string | null, stargazers_count: null as number | null }
     const json = (await res.json()) as { language: string | null; updated_at: string | null; stargazers_count: number | null }
     return { language: json.language, updated_at: json.updated_at, stargazers_count: json.stargazers_count }
   } catch (e) {
@@ -81,23 +80,13 @@ export default async function ReposPage() {
   return (
     <div className="divide-y divide-gray-200 dark:divide-gray-700">
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-        <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">
-          Repos
-        </h1>
-        <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-          Selected open-source work on LLMs, trees, and spatial computing.
-        </p>
+        <h1 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 dark:text-gray-100">Repos</h1>
+        <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">Selected open-source work on LLMs, trees, and spatial computing.</p>
       </div>
       <div className="container py-12">
         <div className="-m-4 flex flex-wrap">
           {enriched.map((item) => (
-            <Card
-              key={item.title}
-              title={item.title}
-              description={item.description}
-              imgSrc={item.imgSrc}
-              href={item.href}
-            />
+            <Card key={item.title} title={item.title} description={item.description} imgSrc={item.imgSrc} href={item.href} />
           ))}
         </div>
       </div>

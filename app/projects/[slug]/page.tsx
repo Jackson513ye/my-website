@@ -14,14 +14,12 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
   return (
     <article className="prose dark:prose-invert mx-auto max-w-3xl py-12">
       <div className="not-prose mb-4">
-        <Link href="/projects" className="no-underline text-primary-500 hover:text-primary-600">
+        <Link href="/projects" className="text-primary-500 hover:text-primary-600 no-underline">
           ← Back
         </Link>
       </div>
       <h1>{project.title}</h1>
-      {project.image && (
-        <Image src={project.image} alt={project.title} width={800} height={400} className="mb-6 rounded" />
-      )}
+      {project.image && <Image src={project.image} alt={project.title} width={800} height={400} className="mb-6 rounded" />}
       <div className="mb-4 text-gray-500">
         {project.role && (
           <div>

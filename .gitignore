@@ -1,7 +1,1 @@
 node_modules
-.next
-.contentlayer
-out
-.DS_Store
-*.log
-**/.DS_Store
